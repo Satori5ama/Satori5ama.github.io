@@ -2,6 +2,7 @@ baseURL = 'https://satori5ama.github.io'
 languageCode = 'en-us'
 title = '幻想安全区'
 theme = 'yinyang'
+disablePathToLower=true
 
 [params]
 headTitle = "幻想安全区"
@@ -9,10 +10,10 @@ mainSections = ["posts"]
 
 [[params.socials]]
 name = "About Me"
-link = "https://joway.io"
+link = "https://www.luogu.com.cn/user/72462"
 [[params.socials]]
 name = "Github"
-link = "https://github.com/joway"
+link = "https://github.com/Satori5ama"
 
 [taxonomies]
 category = 'categories'
