@@ -9,7 +9,13 @@ headTitle = "幻想安全区"
 mainSections = ["posts"]
 
 [[params.socials]]
+name = "Introduction"
+link = "https://Satori5ama.github.io/posts/introduction"
+[[params.socials]]
 name = "About Me"
+link = "https://Satori5ama.github.io/posts/about-me/"
+[[params.socials]]
+name = "Luogu"
 link = "https://www.luogu.com.cn/user/72462"
 [[params.socials]]
 name = "Github"
@@ -18,3 +24,7 @@ link = "https://github.com/Satori5ama"
 [taxonomies]
 category = 'categories'
 tag = 'tags'
+
+[author]
+  name = "Shy"
+  homepage = "https://Satori5ama.github.io/posts/about-me/"
