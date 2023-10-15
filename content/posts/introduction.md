@@ -15,3 +15,5 @@ draft = false
 未来可能会把自己的文学创作发到这里（~~还是如果有的话~~）
 
 [关于作者](https://Satori5ama.github.io/posts/about-me/)
+
+[文章列表](https://satori5ama.github.io/tags/%E6%96%87%E7%AB%A0%E5%88%97%E8%A1%A8/)

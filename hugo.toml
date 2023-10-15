@@ -12,7 +12,10 @@ mainSections = ["posts"]
 name = "Introduction"
 link = "https://Satori5ama.github.io/posts/introduction"
 [[params.socials]]
-name = "About Me"
+name = "Catalogue"
+link = "https://satori5ama.github.io/tags/%E6%96%87%E7%AB%A0%E5%88%97%E8%A1%A8/"
+[[params.socials]]
+name = "About"
 link = "https://Satori5ama.github.io/posts/about-me/"
 [[params.socials]]
 name = "Luogu"
