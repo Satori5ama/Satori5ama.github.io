@@ -1,5 +1,5 @@
 +++
-title = 'About'
+title = '关于'
 date = 2023-10-07T22:45:47+08:00
 draft = false
 +++
