@@ -13,13 +13,13 @@ mainSections = ["posts"]
 
 [[params.socials]]
 name = "Introduction"
-link = "https://Satori5ama.github.io/posts/introduction"
+link = "https://Satori5ama.github.io/introduction/index/"
 [[params.socials]]
 name = "Archive"
 link = "https://satori5ama.github.io/tags/%E6%96%87%E7%AB%A0%E5%88%97%E8%A1%A8/"
 [[params.socials]]
 name = "About"
-link = "https://Satori5ama.github.io/posts/about-me/"
+link = "https://Satori5ama.github.io/about/index/"
 [[params.socials]]
 name = "Log"
 link = "https://github.com/Satori5ama/Satori5ama.github.io/blob/main/README.md"
