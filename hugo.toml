@@ -12,19 +12,19 @@ mainSections = ["posts"]
 
 
 [[params.socials]]
-name = "Introduction"
+name = "站点介绍"
 link = "https://Satori5ama.github.io/introduction/"
 [[params.socials]]
-name = "Archive"
+name = "归档"
 link = "https://satori5ama.github.io/tags/%E6%96%87%E7%AB%A0%E5%88%97%E8%A1%A8/"
 [[params.socials]]
-name = "About"
+name = "关于"
 link = "https://Satori5ama.github.io/about/"
 [[params.socials]]
-name = "Log"
+name = "日志"
 link = "https://github.com/Satori5ama/Satori5ama.github.io/blob/main/README.md"
 [[params.socials]]
-name = "Luogu"
+name = "洛谷"
 link = "https://www.luogu.com.cn/user/72462"
 [[params.socials]]
 name = "Github"

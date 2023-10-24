@@ -11,7 +11,7 @@ $$\frac{1}{2} $$
 <div class="flink" id="article-container">
 <div class="friend-list-div" >
 
-{{< friend name="友链名称1" url="友链地址1" logo="友链图片链接1" word="友链描述1" >}}
+{{< friend name="Luckyblock" url="https://luckyblock233.github.io/" logo="https://avatars.githubusercontent.com/u/53369682?v=4" word="Luckyblock的博客" >}}
 {{< friend name="友链名称2" url="友链地址2" logo="友链图片链接2" word="友链描述2" >}}
 
 </div>
