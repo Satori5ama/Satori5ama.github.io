@@ -22,7 +22,7 @@ name = "About"
 link = "https://Satori5ama.github.io/posts/about-me/"
 [[params.socials]]
 name = "Log"
-link = "https://github.com/Satori5ama/Satori5ama.github.io/blob/main/README.md"
+link = "https://github.com/Satori5ama/Satori5ama.github.io/main/README.md"
 [[params.socials]]
 name = "Luogu"
 link = "https://www.luogu.com.cn/user/72462"
