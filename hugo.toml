@@ -18,7 +18,7 @@ name = "站点介绍"
 link = "https://Satori5ama.github.io/introduction/"
 [[params.socials]]
 name = "归档"
-link = "https://satori5ama.github.io/tags/%E6%96%87%E7%AB%A0%E5%88%97%E8%A1%A8/"
+link = "https://satori5ama.github.io/posts/"
 [[params.socials]]
 name = "关于"
 link = "https://Satori5ama.github.io/about/"

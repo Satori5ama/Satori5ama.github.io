@@ -1,9 +1,9 @@
 +++
 categories = ['鲜花']
-tags = ['文章列表', '生活杂谈']
+tags = ['生活杂谈']
 title = 'Draft 1'
 date = 2023-10-25T08:56:10+08:00
-draft = false
+draft = true
 +++
 
 <div class="flink" id="article-container">

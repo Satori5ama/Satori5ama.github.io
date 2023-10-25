@@ -1,6 +1,6 @@
 +++
 categories = ['鲜花']
-tags = ['文章列表', '生活杂谈']
+tags = ['生活杂谈']
 title = '当神明死去时'
 date = 2023-10-08T19:39:18+08:00
 draft = false

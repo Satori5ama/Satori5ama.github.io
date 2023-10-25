@@ -1,6 +1,6 @@
 ﻿+++
 categories = ['鲜花']
-tags = ['文章列表', '生活杂谈']
+tags = ['生活杂谈']
 title = '原野，列车与飞翔'
 date = 2023-10-21T15:29:08+08:00
 draft = false
