@@ -2,13 +2,15 @@ baseURL = 'https://Satori5ama.github.io'
 languageCode = 'en-us'
 title = '幻想安全区'
 theme = 'yinyang'
-
+#logo = "img/luckyblock.jpg"
+#svgFavicon = "img/luckyblock.svg"
+#avatarURL = "img/luckyblock.jpg"
 
 [params]
 headTitle = "幻想安全区 —— Shy's Blog"
 mainSections = ["posts"]
-
-
+Description="背向世界的旅途，唯有幻想是安全区。"
+Favicon = "img/luckyblock.svg"
 
 
 [[params.socials]]
@@ -36,4 +38,4 @@ tag = 'tags'
 
 [author]
   name = "Shy"
-  homepage = "https://Satori5ama.github.io/posts/about-me/"
+  homepage = "https://Satori5ama.github.io/about/"
