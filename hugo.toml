@@ -10,7 +10,7 @@ theme = 'yinyang'
 headTitle = "幻想安全区 —— Shy's Blog"
 mainSections = ["posts"]
 Description="背向世界的旅途，唯有幻想是安全区。"
-Favicon = "img/satori.svg"
+Favicon = "/img/satori.svg"
 
 
 [[params.socials]]
