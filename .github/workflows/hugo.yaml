@@ -33,6 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.119.0  #########修改为当前使用的 Hugo 版本，可以通过 hugo version 指令进行查看
+      extended： true 
     steps:
       - name: Install Hugo CLI
         run: |
