@@ -15,16 +15,16 @@ Favicon = "/img/satori.svg"
 
 [[params.socials]]
 name = "站点介绍"
-link = "https://Satori5ama.github.io/introduction/"
+link = "/introduction/"
 [[params.socials]]
 name = "归档"
-link = "https://satori5ama.github.io/posts/"
+link = "/posts/"
 [[params.socials]]
 name = "关于"
-link = "https://Satori5ama.github.io/about/"
+link = "/about/"
 [[params.socials]]
 name = "日志"
-link = "https://github.com/Satori5ama/Satori5ama.github.io/blob/main/README.md"
+link = "/README.md"
 [[params.socials]]
 name = "洛谷"
 link = "https://www.luogu.com.cn/user/72462"
@@ -38,4 +38,4 @@ tag = 'tags'
 
 [author]
   name = "Shy"
-  homepage = "https://Satori5ama.github.io/about/"
+  homepage = "/about/"

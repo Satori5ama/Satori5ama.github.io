@@ -79,12 +79,12 @@ window.onload = function() {
 	  if(document.hidden) {
 		$('[rel="icon"]').attr('href', "/failure.ico");
 		$('[rel="shortcut icon"]').attr('href', "/failure.ico");
-		document.title = '哦~该回码头了';
+		document.title = '花朵艳丽，终会凋零';
 		clearTimeout(titleTime);
 	  } else {
 		$('[rel="icon"]').attr('href', "/favicon.svg");
 		$('[rel="shortcut icon"]').attr('href', "/favicon.svg");
-		document.title = '哈~又整到薯条了';
+		document.title = '幽雅绽放，墨染之樱';
 		titleTime = setTimeout(function() {
 		  document.title = OriginTitile;
 		}, 2000);
