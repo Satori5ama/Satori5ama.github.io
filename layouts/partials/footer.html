@@ -1,12 +1,16 @@
 <div class="site-footer">
-  <div class="footer-line">
+  {{ partial "mathjax.html" . }}
+  {{ partial "comments.html" . }}
+  <div class="footer-line"></div>
+  <div class="site-footer-item">
      <span id="run-time"></span>
   </div>
-  <!--<span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Stilig</a></span>-->
-  <a href="https://icp.gov.moe/?keyword=20239514" target="_blank">萌ICP备20239514号</a>
+  {{- /* busuanzi plugin */ -}}
   <div class="site-footer-item">
-    {{ partial "mathjax.html" . }}
-    {{ partial "comments.html" . }}
-  </div>
-  
+    <span class="copyright">Copyright ©2023&nbsp;<a class="link" href="/" target="_blank">Shy</a> All Rights Reserved</span>&nbsp;|&nbsp;  
+    <a class="link" href="https://icp.gov.moe/?keyword=20239514" target="_blank">萌ICP备20239514号</a>
+    {{- partial "plugin/busuanzi.html" (dict "params" .Site.Params.busuanzi "bsz_type" "footer") -}}
+  </div> 
 </div>
+
+

@@ -1,0 +1,415 @@
+/* global */
+
+body {
+  font-family: "Bree Serif", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  margin: 0 20px;
+}
+
+article {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.post-ads {
+  margin: 50px 0;
+}
+
+.markdown-body {
+  font-size: 18px;
+  max-width: 100%;
+}
+
+.markdown-body a {
+  text-decoration: underline;
+  text-decoration-color: #000;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+  padding: 0 1em;
+  color: #57606a;
+  border-left: 0.25em solid #d0d7de;
+}
+
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  border-radius: 10px;
+}
+
+.markdown-body code {
+  padding: 0.2em 0.4em;
+  font-size: 85%;
+  background-color: #f6f8fa;
+  border-radius: 6px;
+}
+
+/* reset code */
+
+.markdown-body pre > code {
+  padding: 0;
+  font-size: 100%;
+  background-color: inherit;
+  border: 0;
+}
+
+/* i18n */
+
+.Chinese .markdown-body {
+  line-height: 200%;
+}
+
+/* header */
+
+@font-face {
+  font-family: "Head Custom";
+  src: url("/fonts/head.ttf") format("truetype");
+}
+
+.site-date-catalog {
+  font-size: 2rem;
+}
+
+.header-title {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-top: 32px;
+  font-family: "Head Custom", "Bungee Shade", sans-serif;
+}
+.header-title a {
+  text-decoration: none;
+}
+
+.header-subtitle {
+  font-size:20px;
+  font-family: "Head Custom", "Bungee Shade", sans-serif;
+  color: #666;
+}
+
+.header-items {
+  margin: 10px 0;
+}
+
+.header-item {
+  margin: 0 5px;
+}
+
+.header-line {
+  width: 100%;
+  border-width: 2px;
+  border-color: #482936;
+  border-style: solid none none none;
+}
+
+.lang-switch {
+  font-weight: 600;
+}
+
+/* posts list */
+
+#posts-list {
+  min-height: 600px;
+}
+
+.posts-line {
+  font-size: 1.2rem;
+  margin: 12px 0;
+}
+
+.posts-categories {
+  font-size: 0.8rem;
+  margin: auto;
+  text-align: center;
+}
+
+.posts-category {
+  padding: 3px 0;
+  border: #000 2px solid;
+  border-radius: 5px;
+  /* margin-bottom: 3px; */
+}
+
+
+.footer-line {
+  width: 100%;
+  border-width: 2px;
+  border-color: #482936;
+  border-style: solid none none none;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.site-footer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* display: flex; */
+  /* justify-content: flex-end; */
+  /* flex-wrap: wrap; */
+  /* padding: 12px 0; */
+  /* border-width: 3px; */
+  /* border-style: solid none; */
+  /* border-color: #000; */
+}
+
+.site-footer-item {
+  text-align:center;
+  /* margin-right: 12px;*/
+  color: #666;
+}
+
+.site-footer-item a {
+  color:#778899;
+  text-decoration: underline;
+  /* a:visited {color:#00FF00;}  已访问链接 */
+  /* a:hover {color:#FF00FF;}  鼠标移动到链接上 */
+  /* a:active {color:#0000FF;}  鼠标点击时 */
+}
+
+/* post */
+
+.post-content img {
+  max-width: 100%;
+  display: block;
+  margin-right: auto;
+  margin-top: 12px;
+}
+
+.post-header {
+  margin-bottom: 50px;
+}
+
+.post-title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.post-tags {
+  display: inline;
+  font-weight: 600;
+  padding: 2px 5px;
+  margin-right: 6px;
+  border: #000 2px solid;
+  border-radius: 5px;
+}
+
+.post-date {
+  font-weight: 800;
+  font-style: italic;
+}
+
+.post-author {
+  font-size: 20px;
+  font-family:"SWScrpc", sans-serif;
+  float: right;
+  font-weight: 600;
+}
+
+.page-content {
+  min-height: 60%;
+}
+
+.post-content {
+  margin-bottom: 50px;
+}
+
+.post-content p {
+  hyphens: auto;
+  line-height: 1.8;
+  /* text-align: justify; */
+  text-justify: ideographic;
+  margin-bottom: 1em;
+}
+
+.related-content {
+  border-width: 3px;
+  border-style: solid;
+  border-color: #000;
+  padding: 0 10px;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+.related-content li {
+  margin: 5px 0;
+}
+
+/* taxonomy */
+
+.taxonomy-term {
+  font-size: 3rem;
+}
+
+/* gallery */
+
+.gallery-img {
+  text-align: center;
+}
+
+.gallery-img span {
+  text-align: center;
+}
+
+.gallery-img-desc {
+  font-size: 0.8em;
+  font-weight: 800;
+}
+
+/* disqus */
+
+#disqus_thread {
+  position: relative;
+}
+
+#disqus_thread:after {
+  content: "";
+  display: block;
+  height: 55px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background: white;
+}
+
+@media screen and (max-width: 600px) {
+  .header-title,
+  .header-subtitle,
+  .header-items {
+    text-align: center;
+  }
+
+  .posts-line {
+    font-size: 16px;
+  }
+
+  .markdown-body {
+    font-size: 16px;
+  }
+  .post-title {
+    font-size: 2rem;
+  }
+  .post-content p {
+    letter-spacing: 0.05em;
+  }
+}
+
+@media screen and (max-width: 48em) {
+  .posts-category {
+    display: none;
+  }
+}
+
+
+/*friend*/
+
+.friendurl {
+    text-decoration: none !important;
+    color: black;
+    box-shadow: none !important;
+}
+
+.myfriend {
+    width: 56px !important;
+    height: 56px !important;
+    border-radius: 50%!important;
+    padding: 2px;
+    margin-top: 20px !important;
+    margin-left: 14px !important;
+    background-color: #fff;
+}
+
+.frienddiv {
+    overflow: auto;
+    height: 100px;
+    width: 49%;
+    display: inline-block !important;
+    border-radius: 5px;
+    background: none;
+    
+    -webkit-transition: all ease-out 0.3s;
+    -moz-transition: all ease-out 0.3s;
+    -o-transition: all ease-out 0.3s;
+    transition: all ease-out 0.3s;
+}
+
+.dark .frienddiv:hover {
+    background: var(--code-bg);
+}
+
+.frienddiv:hover {
+    background: var(--theme);
+    transition: transform 1s;
+    webkit-transform: scale(1.1);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+.frienddiv:hover .frienddivleft img { 
+    transition: 0.9s !important;
+    -webkit-transition: 0.9s !important;
+    -moz-transition: 0.9s !important;
+    -o-transition: 0.9s !important;
+    -ms-transition: 0.9s !important;
+    transform: rotate(360deg) !important;
+    -webkit-transform: rotate(360deg) !important;
+    -moz-transform: rotate(360deg) !important;
+    -o-transform: rotate(360deg) !important;
+    -ms-transform: rotate(360deg) !important;
+}
+
+.frienddivleft {
+    width: 92px;
+    float: left;
+    margin-right: -5px;
+}
+
+.frienddivright {
+    margin-top: 18px;
+    margin-right: 18px;
+}
+
+.friendname {
+    text-overflow: ellipsis;
+    font-size: 100%;
+    margin-bottom: 5px;
+    color: var(--primary);
+}
+
+.friendinfo {
+    text-overflow: ellipsis;
+    font-size: 70%;
+    color: var(--primary);
+}
+
+@media screen and (max-width: 600px) {
+    .friendinfo {
+        display: none;
+    }
+    .frienddivleft {
+        width: 84px;
+        margin: auto;
+    }
+    .frienddivright {
+        height: 100%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .friendname {
+        font-size: 18px;
+    }
+}

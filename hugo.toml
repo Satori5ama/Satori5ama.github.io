@@ -11,7 +11,7 @@ headTitle = "幻想安全区 —— Shy's Blog"
 mainSections = ["posts"]
 Description="背向世界的旅途，唯有幻想是安全区。"
 Favicon = "/img/satori.svg"
-
+#extraCSSFiles = ["/css/friend.css", "css/bar.css"]
 
 [[params.socials]]
 name = "站点介绍"
@@ -23,8 +23,8 @@ link = "/posts/"
 name = "关于"
 link = "/about/"
 [[params.socials]]
-name = "日志"
-link = "/README.md"
+name = "友链"
+link = "/friend/"
 [[params.socials]]
 name = "洛谷"
 link = "https://www.luogu.com.cn/user/72462"
@@ -39,3 +39,26 @@ tag = 'tags'
 [author]
   name = "Shy"
   homepage = "/about/"
+
+
+# 添加不蒜子计数
+[params.busuanzi]
+  enable = true
+  # 是否开启全站独立访客数
+  site_uv = true
+  # 全站独立访客数前的图标或提示语
+  site_uv_pre = '<i class="fa fa-user"></i>' 
+  # 全站独立访客数后的图标或提示语
+  site_uv_post = ''
+  # 是否开启全站浏览量
+  site_pv = true
+  # 全站浏览量前的图标或提示语
+  site_pv_pre = '<i class="fa fa-eye"></i>'
+  # 全站浏览量后的图标或提示语
+  site_pv_post = ''
+  # 是否开启单页浏览量
+  page_pv = true
+  # 单页浏览量前的图标或提示语
+  page_pv_pre = '<i class="far fa-eye fa-fw"></i>'
+  # 单页浏览量后的图标或提示语
+  page_pv_post = ''
