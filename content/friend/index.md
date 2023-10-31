@@ -7,8 +7,10 @@ draft = false
 <div class="flink" id="article-container">
 <div class="friend-list-div" >
 
-{{< friend name="Luckyblock" url="https://sulvblog.cn" logo="https://pic.imgdb.cn/item/6540ac65c458853aef35c4dc.webp" word="Luckyblock 的技术博客" >}}
+{{< friend name="Luckyblock" url="https://www.cnblogs.com/luckyblock/" logo="https://pic.imgdb.cn/item/6540ac65c458853aef35c4dc.webp" word="Luckyblock 的技术博客" >}}
 {{< friend name="Luckyblock" url="https://luckyblock233.github.io/" logo="/img/luckyblock.svg" word="Luckyblock 的非技术类博客" >}}
+{{< friend name="Sulv’s Blog" url="https://www.sulvblog.cn" logo="https://www.sulvblog.cn/img/Q.gif" word="一个记录技术、阅读、生活的博客" >}}
+{{< friend name="狄鲤 Blog" url="https://stilig.me" logo="https://stilig.me/webhead.png" word="一个分享自己杂七杂八知识的网站" >}}
 
 </div>
 </div>
