@@ -1,6 +1,6 @@
 +++
 categories = ['发电']
-tags = ['发电']
+tags = ['纯粹发电']
 title = '彼阳的生活'
 date = 2023-10-19T20:39:03+08:00
 draft = false
