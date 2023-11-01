@@ -16,7 +16,7 @@ draft = false
 
 [关于作者](https://Satori5ama.github.io/about/index/)
 
-[文章列表](https://satori5ama.github.io/tags/%E6%96%87%E7%AB%A0%E5%88%97%E8%A1%A8/)
+[文章列表](https://Satori5ama.github.io/posts/)
 
 目前的目录有两类，
 
