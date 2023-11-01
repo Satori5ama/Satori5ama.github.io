@@ -44,7 +44,7 @@ draft = false
 
 创作苦手，自己写的东西自己都看不下去。
 
-你可以在[这里](https://satori5ama.github.io/tags/%E6%96%87%E7%AB%A0%E5%88%97%E8%A1%A8/)看到他的全部作品
+你可以在[这里](https://satori5ama.github.io/posts/)看到他的全部作品
 
 ### 联系方式
 
