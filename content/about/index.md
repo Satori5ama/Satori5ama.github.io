@@ -44,13 +44,13 @@ draft = false
 
 创作苦手，自己写的东西自己都看不下去。
 
-你可以在[这里](https://satori5ama.github.io/posts/)看到他的全部作品
+你可以在[这里](/posts/)看到他的全部作品
 
 ### 联系方式
 
 qq：1242330740
 
-email：1242330740@qq.com
+email：satori5ama@qq.com
 
 [Luogu](https://www.luogu.com.cn/user/72462)
 
