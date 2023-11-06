@@ -1,7 +1,7 @@
 ﻿+++
 categories = ['鲜花']
 tags = ['梦幻泡影']
-title = '梦呓'
+title = '梦呓（一）'
 date = 2023-11-01T20:44:30+08:00
 draft = false
 slug='somniloquy'
