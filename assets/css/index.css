@@ -82,6 +82,11 @@ a:hover {
   font-size: 2rem;
 }
 
+.site-date-catalog-sup{
+    font-size: 60%;
+    vertical-align: 0.8em;
+}
+
 .header-title {
   font-size: 3rem;
   font-weight: bold;
@@ -259,6 +264,7 @@ a:hover {
 
 .taxonomy-term {
   font-size: 3rem;
+  font-family: "Head Custom", "Bungee Shade", sans-serif;
 }
 
 /* gallery */

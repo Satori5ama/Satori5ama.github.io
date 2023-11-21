@@ -62,3 +62,4 @@ tag = 'tags'
   page_pv_pre = '<i class="far fa-eye fa-fw"></i>'
   # 单页浏览量后的图标或提示语
   page_pv_post = ''
+

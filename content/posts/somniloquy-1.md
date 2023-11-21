@@ -4,7 +4,7 @@ tags = ['梦幻泡影']
 title = '梦呓（一）'
 date = 2023-11-01T20:44:30+08:00
 draft = false
-slug='somniloquy'
+slug='somniloquy-1'
 +++
 
 [梦消失 ~ Lost Dream - Assaultdoor](https://music.163.com/#/song?id=690537)

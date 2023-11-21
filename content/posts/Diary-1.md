@@ -7,7 +7,7 @@ date = 2023-11-17T20:00:06+08:00
 draft = false
 +++
 
-[ Heartache_- From Ashes To New](https://music.163.com/#/song?id=1956694361)
+[ Heartache - From Ashes To New](https://music.163.com/#/song?id=1956694361)
 
 {{< music_auto 1956694361 >}}
 
