@@ -1,5 +1,5 @@
 +++
-categories = ['象棋']
+categories = ['笔记']
 tags = ['不务正业系列','象棋', '布局']
 title = '浅析：中炮过河车互进七兵对屏风马飞右象'
 slug = 'Xiangqi-01'
