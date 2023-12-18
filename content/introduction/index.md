@@ -14,7 +14,9 @@ draft = false
 
 未来可能会把自己的文学创作发到这里（~~还是如果有的话~~）
 
-[关于作者](https://Satori5ama.github.io/about/index/)
+博客名的来源是Heli（竹蜻蜓）2019年的一首曲子。
+
+[关于作者](https://Satori5ama.github.io/about/)
 
 [文章列表](https://Satori5ama.github.io/posts/)
 
