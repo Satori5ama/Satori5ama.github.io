@@ -1,6 +1,6 @@
 +++
 categories = ['鲜花']
-tags = ['文章列表', '生活杂谈']
+tags = ['生活杂谈']
 title = '缺陷与自我救赎'
 slug = 'Defect-and-Self-Redemption'
 date = 2023-12-17T22:41:15+08:00

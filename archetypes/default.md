@@ -1,8 +1,9 @@
 +++
-categories = ['鲜花']
-tags = ['文章列表', '生活杂谈']
+categories = ['']
+tags = ['', '']
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
 slug = '{{ .TranslationBaseName | title }}'
 date = {{ .Date }}
+lastmod= {{ .Date }}
 draft = true
 +++
