@@ -1,7 +1,7 @@
 +++
 categories = ['鲜花']
 tags = ['梦幻泡影']
-title = '梦呓（二）'
+title = '梦呓（二）—— 如玻璃般破碎的过去'
 slug = 'Somniloquy-2'
 date = 2023-11-21T20:13:08+08:00
 draft = false
