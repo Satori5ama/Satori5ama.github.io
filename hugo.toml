@@ -7,7 +7,7 @@ theme = 'yinyang'
 #avatarURL = "img/luckyblock.jpg"
 
 [params]
-headTitle = "幻想安全区 —— Shy's Blog"
+headTitle = "幻想安全区 ~ Dreamscape Haven"
 mainSections = ["posts"]
 Description="背向世界的旅途，唯有幻想是安全区。"
 Favicon = "/img/satori.svg"
@@ -37,7 +37,7 @@ category = 'categories'
 tag = 'tags'
 
 [author]
-  name = "Shy"
+  name = "Satori5ama"
   homepage = "/about/"
 
 

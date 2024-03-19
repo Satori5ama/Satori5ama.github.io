@@ -10,9 +10,9 @@ draft = false
 
 ~~因为长期乱改ID导致发现自己没有固定的ID~~
 
-最终还是决定叫 **Shy** 比较习惯一点。
+常用ID有 大太阳shy（dtyshy） ，Satori5ama （~~但其他平台上这个不一定是我~~）
 
-常用ID有 大太阳shy（dtyshy） ，Satori5ama （~~但这个不一定是我~~）
+如果熟悉我的话，也可以叫 Shy 。
 
 ### 关于个人
 

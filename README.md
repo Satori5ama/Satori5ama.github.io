@@ -26,4 +26,8 @@
 
 		更新了Logo
 
-		
+- 2023/10/31：	更新博客名为"幻想安全区 ~ Dreamscape Haven"
+				
+				更新作者名为Satori5ama
+
+				更新了CC许可证
