@@ -52,8 +52,77 @@ int main(){
 ```
 ### J
 
-咕。
+赛场思路比较诡异的一题。
 
+首先第一反应先排个序再说。
+
+按x升序排序之后，我们发现一个显然的性质，对于左下角点的选取，若对于一个点$(x_{i},y_{i})$，存在一个点$(x_{j},y_{j})$满足$x_{j}<x_{i},y_{j}<y_{i}$，那么$(x_{i},y_{i})$必不可能为左下角点。因此，左下角的可能点纵坐标必为一个单调递减序列。
+
+同理，右上角的可能点纵坐标也必为一个单调递减序列。并且左下角点的横坐标值一定小于右下角点的横坐标值。
+
+所以，对于左下角点，我们采用从左到右枚举的方式，记录当前枚举点之前的最小纵坐标，并和当前点的纵坐标比较，如果当前点的纵坐标是一个新的最小值，那么当前点可以作为一个左下角点。
+
+此时，我们用一个单调队列维护当前点右侧的单调递减序列，这个队列中存的即是固定左下角后右上角的所有可能点。
+
+但是对于右上角的可能点，还要满足这样几个条件：
+
+ 1. 从起点至当前点的区间内纵坐标最大值小于右上角点的纵坐标；
+ 2. 从终点到右上角点的区间内纵坐标最小值大于当前点的纵坐标。
+
+因此，我们要同时记录从起点至当前点的纵坐标最大值（用一个变量记录），以及从终点到右上角所有可能点的纵坐标最小值（用一个数组记录从终点到任一个点的区间内纵坐标最小值）。这两个值已知后，我们将两个值在单调队列中作二分答案，就可以求出右上角的真实可选区间。
+
+``` cpp
+struct node{
+	int x,y;
+}e[200005];
+int n,mins[200005];
+inline bool cmp(node a,node b){return a.x<b.x;}
+deque<int> q,q2,q3;		
+int main(){
+	R(n);
+	for(int i=1;i<=n;i++){R(e[i].x);R(e[i].y);}
+	sort(e+1,e+1+n,cmp);
+	for(int i=1;i<=n;i++){
+		while(!q.empty()&&e[q.back()].y<e[i].y){
+			q.pop_back(); 
+			q2.pop_back();
+		} 
+		q.push_back(i);			//q维护右上角可能点(单调递减序列)的下标
+		q2.push_back(e[i].y);	//q2维护右上角可能点的纵坐标
+	}
+	mins[n]=n;
+	for(int i=n-1;i>=1;i--){
+		if(e[i].y<e[mins[i+1]].y) mins[i]=i;
+		else mins[i]=mins[i+1];
+	}	//mins[i]维护点i到点n的区间内纵坐标最小的点的下标 
+	for(unsigned i=0;i<q.size();i++)
+		q3.push_back(e[mins[q[i]]].y);	//q3维护右上角可能点到终点的区间内最小的纵坐标
+	int ly=1,my=1;	//ly表示起点到当前点中纵坐标最小点的下标,my表示起点到当前点中纵坐标最大点的下标  
+	long long sum=0;
+	while(!q.empty()&&e[ly].x>=e[q.front()].x){
+		q.pop_front();
+		q2.pop_front();
+		q3.pop_front();
+	} 
+	if(e[ly].y<e[q.back()].y)
+		sum+=max(int((upper_bound(q2.begin(),q2.end(),e[my].y,greater<int>())-q2.begin())-(upper_bound(q3.begin(),q3.end(),e[ly].y)-q3.begin())),0);
+	for(int i=2;i<=n;i++){
+		if(e[my].y<=e[i].y) my=i;
+		if(e[ly].y>=e[i].y){
+			ly=i;
+			while(!q.empty()&&e[ly].x>=e[q.front()].x){
+				q.pop_front();
+				q2.pop_front();
+				q3.pop_front();
+			} 
+			if(e[ly].y<e[q.back()].y)
+				sum+=max(int((upper_bound(q2.begin(),q2.end(),e[my].y,greater<int>())-q2.begin())-(upper_bound(q3.begin(),q3.end(),e[ly].y)-q3.begin())),0);
+		}
+	}
+	printf("%lld\n",sum);
+	return 0;
+}
+```
 
 ### H
 
