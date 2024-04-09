@@ -12,6 +12,10 @@ draft = false
 
 [Hunan Collegiate Championship Ⅳ 2024 (feat. Yokohama Regional 2021) - Codeforces](https://codeforces.com/gym/514727)
 
+### Tag
+
+随机化（蒙特卡洛法），偏序，图论转化
+
 ### A
 
 相邻两个球相交首尾相接求体积并，给出公式，签到题
@@ -294,6 +298,134 @@ int main(){
 
 对于本问题来说，$\varepsilon=0.05$，$I=\frac{|G|}{|U|} \ge \frac{1}{m}$，$D[h(X)]=p(1-p) \le \frac{1}{4}$，查表可得当$\alpha=0.05$时，$u_{1-\alpha/2}=u_{0.975}=1.96$，代入计算，得到$N \ge345744$，总复杂度应为$O(NM^3/\varepsilon^2)$。
 
+### C
 
+#### Statement
 
+You are given the decoder of the data compression. The set of code words is {00, 01, …, 99} 
+
+> 0X-> output X 
+>
+> X0-> no output 
+>
+> AL-> do “output the A-thlast one” for L times 
+
+Example: (Compression ratio = 8/15) 
+
+> Code string: 00 01 25 48
+> 
+> Decoded string: 0 1 01010 10101010
+
+ Some code strings decoded into the same string. 
+
+> E.g., these are all decoded into 010101010101010: 
+>
+> 00012548, 00012228821000, 00012882221000 
+
+Reversible: it and its reverse are both decoded into the same string. 
+
+Your task is to find the lexicographically earliest shortest reversible code string decoded into the given string
+
+#### Solution
+
+很有意思的一题。
+
+发现操作序列反转后实际上可以视作分别每个两位操作码反转，然后从后往前生成字符串。
+
+所以用状态$(i,j)$记录匹配了正向前$i$位，反向前$j$位的操作序列，在这个操作序列后添加操作$AL$可以转移到下一个状态。但是我们发现$i,j$两个维度状态遍历存在先后次序的问题，直接使用DP较为麻烦。
+
+于是我们采取**图论转化**的方式，把每个状态看作节点，若在状态$(i,j)$的操作序列后添加操作$AL$可以转移到状态$(i',j')$，那么将$(i,j)$向$(i',j')$连边。
+
+那么这个图实际上是一个DAG，最终我们所求的即$(0,0)$到$(n,n)$的最短路径。此时我们就可以在图上进行DP。
+
+为了方便，此处直接使用BFS求解最短路，记录下途中的操作即可。
+
+``` cpp
+#pragma GCC optimize("Ofast")
+#include<bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+const int N=500,Base=501;
+char given[N+5];
+int n;
+#define base (n+1)
+vector<int> e[Base*Base];
+vector<char> A[Base*Base],L[Base*Base]; 
+queue<int> q;
+int ans[Base*Base],ansA[Base*Base],ansL[Base*Base];
+inline void add(int u1,int u2,int v1,int v2,int a,int l){
+	e[u1*base+u2].push_back(v1*base+v2);
+	A[u1*base+u2].push_back(a);
+	L[u1*base+u2].push_back(l);
+}
+inline void init(){
+	for(int i=0;i<=n;i++)
+		for(int j=0;j<=n;j++)
+			for(int k=0;k<=9;k++)
+				for(int p=0;p<=9;p++){
+					if(k==0){
+						if(p==0){
+							if(i<n&&j<n&&given[i+1]==p+'0'&&given[n-j]==k+'0')
+								add(i,j,i+1,j+1,k,p); 
+						} 
+						else if(i<n&&given[i+1]==p+'0') add(i,j,i+1,j,k,p); 
+					}
+					else if(p==0){
+						if(j<n&&given[n-j]==k+'0') add(i,j,i,j+1,k,p);
+					}
+					else{
+						int flag=1;
+						if(i+p>n||i-k<0||j+p+k>n) continue;
+						for(register int z=1;z<=p;z++){
+							if(given[i+z]!=given[i+z-k]){
+								flag=0;
+								break;
+							}
+						}
+						if(!flag) continue;
+						for(register int z=0;z<k;z++){
+							if(given[n-j-z]!=given[n-j-z-p]){
+								flag=0;
+								break;
+							}
+						}
+						if(flag) add(i,j,i+p,j+k,k,p);
+					}
+				}
+}
+inline void bfs(){
+	q.push(0);
+	memset(ans,-1,sizeof(ans));
+	while(!q.empty()){
+		int u=q.front();q.pop();
+		for(register unsigned i=0;i<e[u].size();i++){
+			int v=e[u][i];
+			if(ans[v]==-1){
+				ans[v]=u;
+				ansA[v]=A[u][i];
+				ansL[v]=L[u][i];
+				if(v==n*base+n) goto lp;
+				q.push(v);
+			}
+		}
+	}
+	lp:;
+}
+void out(int u){
+	if(!u) return;
+	out(ans[u]);
+	putchar(ansA[u]+'0');putchar(ansL[u]+'0');
+}
+int main(){
+	scanf("%s",given+1);
+	n=strlen(given+1);
+	init();
+	bfs();
+	out(n*base+n);
+	return 0;
+}
+```
+
+### 参考文献
+[The 2024 Hunan Multi-School Programming Training Contest, Round 4 - Luckyblock - 博客园 (cnblogs.com)](https://www.cnblogs.com/luckyblock/p/18113751)
 
