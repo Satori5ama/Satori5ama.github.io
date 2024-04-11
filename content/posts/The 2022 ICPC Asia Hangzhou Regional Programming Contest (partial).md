@@ -20,7 +20,7 @@ draft = false
 
 ### Tag
 
-字符串哈希，数论，DP
+字符串哈希，数论，DP，字典树
 
 ### F
 
@@ -203,7 +203,49 @@ signed main(){
  - 没有特判$\sum p_i \le k$
  - 把$w_{i,j}$当成$p_i$加到$sum$里然后查半天查不出来，~~最后重写了一遍过了~~
 
+### K
 
+参考：[The 2022 ICPC Asia Hangzhou Regional Programming Contest - Luckyblock - 博客园 (cnblogs.com)](https://www.cnblogs.com/luckyblock/p/18128830#k)
+
+~~挂因是估错大小了，f和ans没开long long~~
+
+``` cpp
+int n,q;
+string s;
+int ch[2000005][26],tot=1;
+long long f[26][26],siz[2000005],cnt[2000005],ans=0;
+void insert(int u,unsigned i){
+	++siz[u];
+	if(i==s.size()){
+		++cnt[u];
+		ans+=siz[u]-cnt[u];
+		return;
+	}
+	int nch=s[i]-'a';
+	for(int j=0;j<26;j++)
+		if(j!=nch) f[nch][j]+=siz[ch[u][j]];
+	if(!ch[u][nch]) ch[u][nch]=++tot;
+	insert(ch[u][nch],i+1);
+}
+int main(){
+	ios::sync_with_stdio(0);cin.tie(0);
+	cin>>n>>q;
+	for(int i=1;i<=n;i++){
+		cin>>s;
+		insert(1,0);
+	}
+	while(q--){
+		string t;
+		cin>>t;
+		long long anst=ans;
+		for(int i=0;i<26;i++)
+			for(int j=i+1;j<26;j++)
+				anst+=f[t[i]-'a'][t[j]-'a'];
+		printf("%lld\n",anst);
+	}
+	return 0;
+}
+```
 ___
 
 其余题解咕。
