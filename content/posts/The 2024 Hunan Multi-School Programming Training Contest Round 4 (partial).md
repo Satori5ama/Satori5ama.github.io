@@ -4,7 +4,7 @@ tags = ['ACM','湖南多校赛']
 title = 'The 2024 Hunan Multi-School Programming Training Contest Round 4 (partial)'
 slug = '2024-Hunan-Multi-School-4'
 date = 2024-04-01T08:52:25+08:00
-lastmod = 2024-04-01T19:52:25+08:00
+lastmod = 2024-04-28T16:52:25+08:00
 draft = false
 +++
 
@@ -272,31 +272,33 @@ int main(){
 
 ~~学概率论学的~~
 
+UPD：学了中心极限定理回来重新整理了下证明。
+
 因为概率论课本最后一章正好是蒙特卡洛法，所以顺便学习了一下。
 
 我们要估算的值为$|G|$，而$|G|=\frac{|G|}{|U|} \times|U|$。
 
 令`$$P\{S \in G|S \in U\}=p=\frac{|G|}{|U|}$$ $$I=\frac{|G|}{|U|}$$`
 
-设随机变量$X$满足两点分布$$X \sim  B(1, p)$$
+设每次随机的结果为随机变量$X_i$，记字符串属于G为$\{X_i=1\}$，不属于G为$\{X_i=0\}$，则$X_i$独立同服从两点分布$X_i \sim  B(1, p)$，$Y_N=X_1+X_2+...+X_N \sim B(N,p)$
 
-则$I$可以看作随机变量函数$h(X)=X$的数学期望。若能得到$X \sim  B(1, p)$的简单随机样本$X_{1},X_{2},...,X_{N}$，则由大数定律有，当$N$充分大时，算术平均数`$$\hat{I} _{N}=\frac{1}{N}\sum_{i=1}^{n}h(X_{i})$$`
+则$I=E(X_i)=\frac{1}{N}\sum_{i-1}^{N}E(X_i)$，若能得到$X_i$的简单随机样本$X_{1},X_{2},...,X_{N}$，则由大数定律有，当$N$充分大时，算术平均数`$$\hat{I} _{N}=\frac{1}{N}\sum_{i=1}^{n}X_{i}\overset{P}{\longrightarrow} \frac{1}{N}\sum_{i-1}^{n}E(X_i) = I$$`
 
 可作为数学期望$I$的近似估计。
 
-因为$E[h(X_{i})]=I$，故$\hat{I} _{N}$是$I$的无偏估计。
+因为$Y_N \sim B(N,p)$，由棣莫弗-拉普拉斯中心极限定理可得`$$P\{\frac{Y_N-Np}{\sqrt{Np(1-p)}}\le x\}=\frac{1}{\sqrt{2\pi }}\int_{-\infty}^{x}e^{-\frac{t^2}{2}}dt$$`
 
-又$D[h(X)]=p(1-p)$，则$\hat{I} _{N}$的方差为$\frac{D[h(X)]}{N}$，由中心极限定理，其误差的分布收敛到正态分布$$\sqrt{N}[\hat{I} _{N}-I]\overset{D}{\longrightarrow} N(0,D[h(x)])，N\longrightarrow\infty $$
+即`$$P\{\frac{\sqrt{N}|\hat{I} _{N}-I|}{\sqrt{D(X)}}\le x\}=\frac{1}{\sqrt{2\pi }}\int_{-x}^{x}e^{-\frac{t^2}{2}}dt$$`
 
-即`$$P\{\frac{\sqrt{N}|\hat{I} _{N}-I|}{\sqrt{D[h(X)]}}\le x\}=\frac{1}{\sqrt{2\pi }}\int_{-x}^{x}e^{-\frac{t^2}{2}}dt$$`
+此处$D(X)=p(1-p)$，表示单次随机$X_i$的方差。
 
-若希望在置信水平$1-\alpha$ 下，其相对误差`$\frac{|\hat{I} _{N}-I|}{I} < \varepsilon$`，则有$$\frac{\sqrt{N}I\varepsilon}{\sqrt{D[h(X)]}} \ge u_{1-\alpha/2}$$
+若希望在置信水平$1-\alpha$ 下，其相对误差`$\frac{|\hat{I} _{N}-I|}{I} < \varepsilon$`，则有$$\frac{\sqrt{N}I\varepsilon}{\sqrt{D(X)}} \ge u_{1-\alpha/2}$$
 
-即样本容量应满足以下条件：$$N \ge (\frac{u_{1-\alpha/2}}{I\varepsilon})^2D[h(X)]$$
+即样本容量应满足以下条件：$$N \ge (\frac{u_{1-\alpha/2}}{I\varepsilon})^2D(X)$$
 
 因此，样本容量$N$与$\varepsilon^2$成反比。
 
-对于本问题来说，$\varepsilon=0.05$，$I=\frac{|G|}{|U|} \ge \frac{1}{m}$，$D[h(X)]=p(1-p) \le \frac{1}{4}$，查表可得当$\alpha=0.05$时，$u_{1-\alpha/2}=u_{0.975}=1.96$，代入计算，得到$N \ge345744$，总复杂度应为$O(NM^3/\varepsilon^2)$。
+对于本问题来说，$\varepsilon=0.05$，$I=\frac{|G|}{|U|} \ge \frac{1}{m}$，$D(X)=p(1-p) \le \frac{1}{4}$，查表可得当$\alpha=0.05$时，$u_{1-\alpha/2}=u_{0.975}=1.96$，代入计算，得到$N \ge345744$，总复杂度应为$O(NM^3/\varepsilon^2)$。
 
 ### C
 
