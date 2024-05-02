@@ -1,0 +1,12 @@
+git init
+git add .
+git commit -m "Update new content"
+git push git@github.com:Satori5ama/Satori5ama.github.io.git main
+
+git clone https://github.com/Satori5ama/Satori5ama.github.io Satori5ama.github.io
+
+
+git@github.com:joway/hugo-theme-yinyang.git
+
+git submodule add https://github.com/joway/hugo-theme-yinyang.git themes/yinyang
+hugo new content posts/my-first-post.md
