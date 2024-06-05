@@ -3,7 +3,7 @@ categories = ['发电']
 tags = ['纯粹发电']
 title = '彼阳的生活'
 date = 2023-10-19T20:39:03+08:00
-draft = false
+draft = true
 +++
 
 为了这个破竞赛我已经把锅背满了，

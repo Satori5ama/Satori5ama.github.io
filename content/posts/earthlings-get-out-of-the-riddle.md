@@ -3,7 +3,7 @@ categories = ['发电']
 tags = ['魔怔文学']
 title = '地球人滚出谜语星！'
 date = 2023-10-21T14:37:46+08:00
-draft = false
+draft = true
 +++
 
 > 本文为虚构内容
