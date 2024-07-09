@@ -4,7 +4,7 @@ tags = ['手记', '连载']
 title = '手记 - 残片'
 slug = 'Diary-Fragment'
 date = 2023-11-22T08:52:25+08:00
-lastmod = 2024-06-23T20:11:25+08:00
+lastmod = 2024-07-09T20:11:25+08:00
 draft = false
 +++
 
@@ -12,6 +12,27 @@ draft = false
 记忆如残片般散落。
 
 {{< music 426881163 >}}
+
+# （十五）7.9
+
+昨天晚上绕学校跑步。
+
+湖南这个地方，是看不到一颗星星的，而它的夜空当然也称不上是什么深邃。那些许泛着褐色的漆黑，如同污水一般的颜色，在这湿热的空气仿佛传出阵阵腐烂的气息。
+
+这样的夜空，让仰望星空思考自己存在这样的充满浪漫气息的行为都不可能完成。
+
+那时我正好在听FELT的[《Sweet Poison》](https://music.163.com/#/song?id=28875562)。
+
+> I look, look to the sky, wondering why.
+>  
+>  The stars are nowhere in sight on this dark, lonely night.
+>  
+>  Can't see the light.
+>  
+>  All that had come were lies.
+
+
+
 
 # （十四）7.6
 
