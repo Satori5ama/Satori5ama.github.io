@@ -9,7 +9,7 @@ theme = 'yinyang'
 [params]
 headTitle = "幻想安全区 ~ Dreamscape Haven"
 mainSections = ["posts"]
-Description="背向世界的旅途，唯有幻想是安全区。"
+Description="我们称之为路的，其实不过是彷徨。"
 Favicon = "/img/satori.svg"
 #extraCSSFiles = ["/css/friend.css", "css/bar.css"]
 
