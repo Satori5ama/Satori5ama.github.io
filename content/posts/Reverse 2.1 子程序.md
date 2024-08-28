@@ -1,7 +1,7 @@
 ﻿+++
 categories = ['笔记']
 tags = ['Reverse']
-title = 'x86汇编笔记'
+title = 'Reverse 2.1 子程序'
 slug = 'reverse-2_1-subroutine'
 date = 2024-08-28T09:55:27+08:00
 lastmod = 2024-08-28T09:55:27+08:00
