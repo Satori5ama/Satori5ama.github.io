@@ -4,7 +4,7 @@ tags = ['手记', '连载']
 title = '手记 - 残片'
 slug = 'Diary-Fragment'
 date = 2023-11-22T08:52:25+08:00
-lastmod = 2024-08-27T20:11:25+08:00
+lastmod = 2024-08-29T20:11:25+08:00
 draft = false
 +++
 
@@ -12,6 +12,10 @@ draft = false
 记忆如残片般散落。
 
 {{< music 426881163 >}}
+
+# （二十）8.29
+
+![enter image description here](https://cdn.jsdmirror.com/gh/Satori5ama/Figurebed@main/img/3.png)
 
 # （十九）8.27
 
