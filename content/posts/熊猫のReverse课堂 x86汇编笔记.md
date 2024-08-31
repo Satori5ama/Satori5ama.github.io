@@ -1,7 +1,7 @@
 ﻿+++
 categories = ['笔记']
 tags = ['Reverse']
-title = 'x86汇编笔记'
+title = '熊猫のReverse课堂 x86汇编笔记'
 slug = 'reverse-x86-assembly'
 date = 2024-08-28T08:55:27+08:00
 lastmod = 2024-08-28T08:55:27+08:00
