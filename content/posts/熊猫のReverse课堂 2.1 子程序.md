@@ -64,7 +64,7 @@ fun = output_output_string2;
 - 栈平衡
 	- 被调用者清理栈数据，维持栈平衡
 
-![enter image description here](https://cdn.jsdmirror.com/gh/Satori5ama/Figurebed@main/img/1.png)
+![enter image description here](https://cdn.jsdmirror.com/gh/Satori5ama/Figurebed@main/img/6.png)
 
 #### fastcall
 - 被称作快速调用约定
