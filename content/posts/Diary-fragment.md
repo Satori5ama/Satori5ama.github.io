@@ -4,7 +4,7 @@ tags = ['手记', '连载']
 title = '手记 - 残片'
 slug = 'Diary-Fragment'
 date = 2023-11-22T08:52:25+08:00
-lastmod = 2024-08-29T20:11:25+08:00
+lastmod = 2024-09-03T20:11:25+08:00
 draft = false
 +++
 
@@ -12,6 +12,14 @@ draft = false
 记忆如残片般散落。
 
 {{< music 426881163 >}}
+
+# （二十一）9.3
+
+好文
+
+[刺杀 - 洛谷专栏 (luogu.com)](https://www.luogu.com/article/hm31moxl)
+
+读这样的文字有种自虐般的幸福。
 
 # （二十）8.29
 
