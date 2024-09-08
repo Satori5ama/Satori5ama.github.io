@@ -1,39 +1,46 @@
-﻿这里是Shy自己搭的静态博客，使用软件为Hugo。
+﻿---
 
-网址见 [幻想安全区 (satori5ama.github.io)](https://satori5ama.github.io/)。
+# Welcome to My Static Blog
 
-更新日志：
+This is a static blog created by Shy, powered by Hugo.
 
-- 2023/10/7：	建站
+Visit us at [Dreamscape Haven (satori5ama.github.io)](https://satori5ama.github.io/).
 
-- 2023/10/8：	更换了博客主题（yinyang）
+## Changelog:
 
-- 2023/10/24：	添加了对Latex的支持，添加了评论区系统（虽然我自己Github经常上不去所以总是看不到）
+- **2023/10/07**: Website launched.
 
-- 2023/10/26：	添加了网站头像
+- **2023/10/08**: Changed the blog theme to "Yinyang."
 
-		网站名现在离开和返回时会产生变化
+- **2023/10/24**: Added support for LaTeX and implemented a comment system (though I often have trouble accessing GitHub, so I rarely see it).
 
-		增加了鼠标点击效果
+- **2023/10/26**: Added a website avatar.
 
-		增加了网址运行时间
-		
-- 2023/10/31：	更新了页脚的版权声明，访问统计，编辑了页脚的样式
+    - The website name now changes upon entering and exiting.
+    
+    - Introduced mouse click effects.
+    
+    - Added website uptime display.
 
-		更新了标题和副标题字体
-		
-		更新了友链
+- **2023/10/31**: Updated the footer with copyright information and visitor statistics, and refined the footer's style.
 
-		更新了Logo
+    - Updated the fonts for the title and subtitle.
+    
+    - Updated the links to friends.
+    
+    - Updated the logo.
 
-- 2023/10/31：	更新博客名为"幻想安全区 ~ Dreamscape Haven"
-				
-		更新作者名为Satori5ama
+- **2023/10/31**: Renamed the blog to "Dreamscape Haven."
 
-		更新了CC许可证
+    - Updated the author name to Satori5ama.
+    
+    - Updated the CC license.
 
-- 2024/08/20：	添加了看板娘
+- **2024/08/20**: Added a mascot.
 
-		更新了副标题：我们称之为路的，其实不过是彷徨。
+    - Updated the subtitle: "What we call a path is merely a wandering."
 
+- **2024/09/08**: Added a dynamic background for the blog and a background for content blocks.
+
+--- 
 
