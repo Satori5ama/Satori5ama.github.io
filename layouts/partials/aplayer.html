@@ -9,10 +9,11 @@
         <div id="aplayer"></div>
     </div>
     <script>
-        const ap = new APlayer({
+
+       const ap = new APlayer({
             container: document.getElementById('aplayer'),
             fixed: true,
-            autoplay: true,
+            autoplay: false,
             mini: true,
             theme: '#f8f4fc',
             loop: 'all',
@@ -60,12 +61,14 @@
                 artist: 'こはならむ',
                 cover: 'http://p1.music.126.net/SNANZcu5PhfvFvM5Fuq_Rw==/109951167964524207.jpg?param=130y130'
 		},
+/*
 		{
 		name: '射命丸文 の「風神少女」（東方花映塚・東方文花帖）',
                 url: 'http://music.163.com/song/media/outer/url?id=1849588290.mp3',
                 artist: 'TAMUSIC',
                 cover: 'http://p2.music.126.net/moNl40w3FaKlUi6fCKp4fg==/109951166050164455.jpg?param=130y130'
 		},
+*/
 		{
 		name: 'Unknown Road',
                 url: 'http://music.163.com/song/media/outer/url?id=526904553.mp3',
@@ -92,7 +95,39 @@
 		}
 		]
         });
-</script>
 
+
+    window.onbeforeunload = function() {
+        // 将播放信息用对象封装，并存入到localStorage中
+        const playInfo = {
+            index: ap.list.index,
+            currentTime: ap.audio.currentTime,
+            paused: ap.paused
+        };
+        localStorage.setItem("playInfo", JSON.stringify(playInfo));
+    };
+
+    window.onload = function() {
+        // 从localStorage取出播放信息
+        const playInfo = JSON.parse(localStorage.getItem("playInfo"));
+	console.log("playInfo");
+        if (!playInfo) {
+            return;
+        }
+        // 切换歌曲
+        ap.list.switch(playInfo.index);
+        // 等待500ms再执行下一步(切换歌曲需要点时间，不能立马调歌曲进度条)
+        setTimeout(() => {
+            // 调整时长
+            ap.seek(playInfo.currentTime);
+            // 是否播放
+            if (!playInfo.paused) {
+                ap.play()
+            }
+        }, 500);
+   }
+
+
+</script>
   </body>
 </html>

@@ -70,7 +70,9 @@ jQuery(document).ready(function($) {
 		
     });
 });
-/* 离开当前页面时修改网页标题，回到当前页面时恢复原来标题 */
+/* 离开当前页面时修改网页标题，回到当前页面时恢复原来标题 
+// 由于函数冲突问题，此部分功能已修改。
+
 window.onload = function() {
 	var OriginTitile = document.title;
 	var titleTime;
@@ -90,3 +92,22 @@ window.onload = function() {
 	  }
 	});
   }
+*/
+/*     新函数如下	*/
+        var OriginTitile = document.title;
+	var titleTime;
+	document.addEventListener('visibilitychange', function() {
+	  if(document.hidden) {
+		$('[rel="icon"]').attr('href', "/failure.ico");
+		$('[rel="shortcut icon"]').attr('href', "/failure.ico");
+		document.title = '花朵艳丽，终会凋零';
+		clearTimeout(titleTime);
+	  } else {
+		$('[rel="icon"]').attr('href', "/favicon.svg");
+		$('[rel="shortcut icon"]').attr('href', "/favicon.svg");
+		document.title = '幽雅绽放，墨染之樱';
+		titleTime = setTimeout(function() {
+		  document.title = OriginTitile;
+		}, 2000);
+	  }
+    });
