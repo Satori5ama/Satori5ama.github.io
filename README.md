@@ -58,5 +58,8 @@ Visit us at [Dreamscape Haven (satori5ama.github.io)](https://satori5ama.github.
 
     - Added a dynamic background for the blog and a background for content blocks.
 
---- 
+- **2024/09/10**: 
 
+    - Introduced the APlayer component and implemented the continuous playback feature, allowing seamless music playback while switching pages.
+
+--- 
