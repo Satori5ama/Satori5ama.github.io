@@ -1,0 +1,133 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdmirror.com/npm/aplayer/dist/APlayer.min.css">
+    <script src="https://cdn.jsdmirror.com/npm/aplayer/dist/APlayer.min.js"></script>
+    <script src="https://cdn.jsdmirror.com/npm/meting@2.0.1/dist/Meting.min.js"></script>
+</head>
+<body>
+    <div class="demo">
+        <div id="aplayer"></div>
+    </div>
+    <script>
+
+       const ap = new APlayer({
+            container: document.getElementById('aplayer'),
+            fixed: true,
+            autoplay: false,
+            mini: true,
+            theme: '#f8f4fc',
+            loop: 'all',
+            order: 'random',
+            preload: 'auto',
+            volume: 0.5,
+            mutex: true,
+            listFolded: false,
+            listMaxHeight: 90,
+            lrcType: 0,
+            audio: [
+	    	{
+                name: 'Sweet Poison (Alternative version)',
+                url: 'http://music.163.com/song/media/outer/url?id=28875562.mp3',
+                artist: 'FELT',
+                cover: 'http://p2.music.126.net/OULgnnPEngGW90022sgkiQ==/5957153999780780.jpg?param=130y130',
+		},
+		{
+		name: '稲田姫様に叱られるから',
+                url: 'http://music.163.com/song/media/outer/url?id=849599.mp3',
+                artist: 'TAMUSIC',
+                cover: 'http://p1.music.126.net/4D6BrpI0kfhVnCUFp3-k2g==/109951166073941690.jpg?param=130y130'
+		},
+		{
+		name: '昼下がりの憂鬱',
+                url: 'http://music.163.com/song/media/outer/url?id=785887.mp3',
+                artist: 'みかん箱 / Foxtail-Grass Studio',
+                cover: 'http://p2.music.126.net/JFnBz-eyIBltKt15wjjFUA==/4455221115751031.jpg?param=130y130'
+		},
+		{
+		name: '日陰と帽子と風鈴と',
+                url: 'http://music.163.com/song/media/outer/url?id=730806.mp3',
+                artist: 'Foxtail-Grass Studio',
+                cover: 'http://p1.music.126.net/4TptW1rmfjLWSmVOj5YW9Q==/4459619162262126.jpg?param=130y130'
+		},
+		{
+		name: 'あの夏が飽和する',
+                url: 'http://music.163.com/song/media/outer/url?id=1330849751.mp3',
+                artist: 'カンザキイオリ / 鏡音レン / 鏡音リン',
+                cover: 'http://p1.music.126.net/wnUwXfzdtPFAIbxbC6Sgbg==/109951163703695287.jpg?param=130y130'
+		},
+		{
+		name: '君の神様になりたい。',
+                url: 'http://music.163.com/song/media/outer/url?id=1987994846.mp3',
+                artist: 'こはならむ',
+                cover: 'http://p1.music.126.net/SNANZcu5PhfvFvM5Fuq_Rw==/109951167964524207.jpg?param=130y130'
+		},
+/*
+		{
+		name: '射命丸文 の「風神少女」（東方花映塚・東方文花帖）',
+                url: 'http://music.163.com/song/media/outer/url?id=1849588290.mp3',
+                artist: 'TAMUSIC',
+                cover: 'http://p2.music.126.net/moNl40w3FaKlUi6fCKp4fg==/109951166050164455.jpg?param=130y130'
+		},
+*/
+		{
+		name: 'Unknown Road',
+                url: 'http://music.163.com/song/media/outer/url?id=526904553.mp3',
+                artist: 'FELT',
+                cover: 'http://p2.music.126.net/V5TPrVgxoOE6jNNPAFGgsg==/109951163098350135.jpg?param=130y130'
+		},
+		{
+		name: 'world.execute (me) ;',
+                url: 'http://music.163.com/song/media/outer/url?id=435278010.mp3',
+                artist: 'Mili',
+                cover: 'http://p2.music.126.net/-OxCLbGs-JxKtPaBCo1yuw==/18801648835570109.jpg?param=130y130'
+		},
+		{
+		name: 'Stellaris Suite: Creation and Beyond',
+                url: 'http://music.163.com/song/media/outer/url?id=415792373.mp3',
+                artist: 'Andreas Waldetoft',
+                cover: 'http://p1.music.126.net/Gxv6d9W4Yd9q9WNHPpi8rw==/1379887104073348.jpg?param=130y130'
+		},
+		{
+		name: 'Faster Than Light',
+                url: 'http://music.163.com/song/media/outer/url?id=415793340.mp3',
+                artist: 'Andreas Waldetoft / Mia Stegmar',
+                cover: 'http://p2.music.126.net/Gxv6d9W4Yd9q9WNHPpi8rw==/1379887104073348.jpg?param=130y130'
+		}
+		]
+        });
+
+
+    window.onbeforeunload = function() {
+        // 将播放信息用对象封装，并存入到localStorage中
+        const playInfo = {
+            index: ap.list.index,
+            currentTime: ap.audio.currentTime,
+            paused: ap.paused
+        };
+        localStorage.setItem("playInfo", JSON.stringify(playInfo));
+    };
+
+    window.onload = function() {
+        // 从localStorage取出播放信息
+        const playInfo = JSON.parse(localStorage.getItem("playInfo"));
+	console.log("playInfo");
+        if (!playInfo) {
+            return;
+        }
+        // 切换歌曲
+        ap.list.switch(playInfo.index);
+        // 等待500ms再执行下一步(切换歌曲需要点时间，不能立马调歌曲进度条)
+        setTimeout(() => {
+            // 调整时长
+            ap.seek(playInfo.currentTime);
+            // 是否播放
+            if (!playInfo.paused) {
+                ap.play()
+            }
+        }, 500);
+   }
+
+
+</script>
+  </body>
+</html>
