@@ -8,9 +8,9 @@ lastmod = 2024-09-01T16:55:27+08:00
 draft = false
 +++
 
-![enter image description here](https://cdn.jsdmirror.com/gh/Satori5ama/Figurebed@main/img/8.jpg)
+![enter image description here](https://cdn.jsdelivr.net/gh/Satori5ama/Figurebed@main/img/8.jpg)
 
-![enter image description here](https://cdn.jsdmirror.com/gh/Satori5ama/Figurebed@main/img/7.jpg)
+![enter image description here](https://cdn.jsdelivr.net/gh/Satori5ama/Figurebed@main/img/7.jpg)
 
 
 

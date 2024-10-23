@@ -16,7 +16,7 @@ draft = false
 
 相对应的，物理内存同样也要分为相同大小的单元， 叫做页帧(page frame)
 
-![enter image description here](https://cdn.jsdmirror.com/gh/Satori5ama/Figurebed@main/img/54.png)
+![enter image description here](https://cdn.jsdelivr.net/gh/Satori5ama/Figurebed@main/img/54.png)
 
 - 页表是每个进程一个(per process)的数据结构
 	- 示例中的页表有四个条目： 
@@ -30,7 +30,7 @@ draft = false
 			- 页内偏移(**Offset**)：offset within the page
 		- 虚拟地址“21”的转换过程
 
-![enter image description here](https://cdn.jsdmirror.com/gh/Satori5ama/Figurebed@main/img/55.png)
+![enter image description here](https://cdn.jsdelivr.net/gh/Satori5ama/Figurebed@main/img/55.png)
 
 eg：按照上图页表，虚拟地址“50”转换为物理地址是 <u> 34 </u>
 
@@ -53,11 +53,11 @@ eg：按照上图页表，虚拟地址“50”转换为物理地址是 <u> 34 </
 		- 脏位(Dirty Bit): 表明页面进入内存后是否修改过
 		- 参考位/访问位(Reference Bit): 表明追踪页是否被访问
 
-![enter image description here](https://cdn.jsdmirror.com/gh/Satori5ama/Figurebed@main/img/56.png)
+![enter image description here](https://cdn.jsdelivr.net/gh/Satori5ama/Figurebed@main/img/56.png)
 
 示例：x86页表项
 
-![enter image description here](https://cdn.jsdmirror.com/gh/Satori5ama/Figurebed@main/img/57.png)
+![enter image description here](https://cdn.jsdelivr.net/gh/Satori5ama/Figurebed@main/img/57.png)
 
 ### 4. 访存示例
 
@@ -111,7 +111,7 @@ for (i = 0; i < 1000; i++)
 - 页大小：1KB 
 - 数组虚拟地址： [40000, 44000)
 
-![enter image description here](https://cdn.jsdmirror.com/gh/Satori5ama/Figurebed@main/img/58.png)
+![enter image description here](https://cdn.jsdelivr.net/gh/Satori5ama/Figurebed@main/img/58.png)
 
 ### “分页”小结
 
@@ -134,7 +134,7 @@ for (i = 0; i < 1000; i++)
 	- 是一种硬件，是芯片上MMU的一部分
 	- 核心思想是缓存频繁发生的地址转换
 
-![enter image description here](https://cdn.jsdmirror.com/gh/Satori5ama/Figurebed@main/img/59.png)
+![enter image description here](https://cdn.jsdelivr.net/gh/Satori5ama/Figurebed@main/img/59.png)
 
 ``` cpp
 VPN = (VirtualAddress & VPN_MASK) >> SHIFT;
@@ -185,14 +185,14 @@ if (Success == True) { // TLB Hit
 
 - ASID
 
-![enter image description here](https://cdn.jsdmirror.com/gh/Satori5ama/Figurebed@main/img/60.png)
+![enter image description here](https://cdn.jsdelivr.net/gh/Satori5ama/Figurebed@main/img/60.png)
 
 ### 4.TLB替换策略
 
 - 和所有缓存一样，需要考虑缓存替换 
 	- 例：替换最近最少使用(LRU, Least Recently Used)
 
-![enter image description here](https://cdn.jsdmirror.com/gh/Satori5ama/Figurebed@main/img/61.png)
+![enter image description here](https://cdn.jsdelivr.net/gh/Satori5ama/Figurebed@main/img/61.png)
 
 ### “TLB”小结
 

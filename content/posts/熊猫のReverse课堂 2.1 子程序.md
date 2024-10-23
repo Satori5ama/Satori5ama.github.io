@@ -53,7 +53,7 @@ fun = output_output_string2;
 - 栈平衡
 	- 调用者清理栈数据，维持栈平衡
 
-![enter image description here](https://cdn.jsdmirror.com/gh/Satori5ama/Figurebed@main/img/test.png)
+![enter image description here](https://cdn.jsdelivr.net/gh/Satori5ama/Figurebed@main/img/test.png)
 
 #### stdcall
 - 被称作标准调用约定
@@ -64,7 +64,7 @@ fun = output_output_string2;
 - 栈平衡
 	- 被调用者清理栈数据，维持栈平衡
 
-![enter image description here](https://cdn.jsdmirror.com/gh/Satori5ama/Figurebed@main/img/6.png)
+![enter image description here](https://cdn.jsdelivr.net/gh/Satori5ama/Figurebed@main/img/6.png)
 
 #### fastcall
 - 被称作快速调用约定
@@ -75,7 +75,7 @@ fun = output_output_string2;
 - 栈平衡
 	- 参数个数小于等于2个时不存在栈平衡的问题
 
-![enter image description here](https://cdn.jsdmirror.com/gh/Satori5ama/Figurebed@main/img/2.png)
+![enter image description here](https://cdn.jsdelivr.net/gh/Satori5ama/Figurebed@main/img/2.png)
 
 ## 1.2 函数序言与尾声
 - 原因

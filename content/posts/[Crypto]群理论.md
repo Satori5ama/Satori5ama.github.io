@@ -229,19 +229,19 @@ x_2
 （带学习误差问题LWE）
 
 
-![enter image description here](https://cdn.jsdmirror.com/gh/Satori5ama/Figurebed@main/img/Crypto/1.jpg)
+![enter image description here](https://cdn.jsdelivr.net/gh/Satori5ama/Figurebed@main/img/Crypto/1.jpg)
 
-![enter image description here](https://cdn.jsdmirror.com/gh/Satori5ama/Figurebed@main/img/Crypto/2.jpg)
+![enter image description here](https://cdn.jsdelivr.net/gh/Satori5ama/Figurebed@main/img/Crypto/2.jpg)
 
-![enter image description here](https://cdn.jsdmirror.com/gh/Satori5ama/Figurebed@main/img/Crypto/3.jpg)
+![enter image description here](https://cdn.jsdelivr.net/gh/Satori5ama/Figurebed@main/img/Crypto/3.jpg)
 
-![enter image description here](https://cdn.jsdmirror.com/gh/Satori5ama/Figurebed@main/img/Crypto/4.jpg)
+![enter image description here](https://cdn.jsdelivr.net/gh/Satori5ama/Figurebed@main/img/Crypto/4.jpg)
 
-![enter image description here](https://cdn.jsdmirror.com/gh/Satori5ama/Figurebed@main/img/Crypto/5.jpg)
+![enter image description here](https://cdn.jsdelivr.net/gh/Satori5ama/Figurebed@main/img/Crypto/5.jpg)
 
-![enter image description here](https://cdn.jsdmirror.com/gh/Satori5ama/Figurebed@main/img/Crypto/6.jpg)
+![enter image description here](https://cdn.jsdelivr.net/gh/Satori5ama/Figurebed@main/img/Crypto/6.jpg)
 
-![enter image description here](https://cdn.jsdmirror.com/gh/Satori5ama/Figurebed@main/img/Crypto/7.jpg)
+![enter image description here](https://cdn.jsdelivr.net/gh/Satori5ama/Figurebed@main/img/Crypto/7.jpg)
 
 格密码方案的优势：
 

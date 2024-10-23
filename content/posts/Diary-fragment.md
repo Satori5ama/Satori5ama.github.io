@@ -58,7 +58,7 @@ ___
 
 # （二十）8.29
 
-![enter image description here](https://cdn.jsdmirror.com/gh/Satori5ama/Figurebed@main/img/3.png)
+![enter image description here](https://cdn.jsdelivr.net/gh/Satori5ama/Figurebed@main/img/3.png)
 
 # （十九）8.27
 
