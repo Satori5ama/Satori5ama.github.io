@@ -2,7 +2,7 @@
 categories = ['笔记']
 tags = ['Reverse']
 title = '熊猫のReverse课堂 2.3 基本操作类型'
-slug = 'reverse-2_1-subroutine'
+slug = 'reverse-2_3-Basic-Operation-Types'
 date = 2024-09-04T10:55:27+08:00
 lastmod = 2024-09-04T10:55:27+08:00
 draft = false
