@@ -62,4 +62,8 @@ Visit us at [Dreamscape Haven (satori5ama.github.io)](https://satori5ama.github.
 
     - Introduced the APlayer component and implemented the continuous playback feature, allowing seamless music playback while switching pages.
 
+- **2024/12/31**:
+
+    - Replace Busuanzi with verCount for webpage counter according to https://vercount.one/
+
 --- 
