@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Crypto on 终端出口</title><link>https://username.github.io/tags/crypto/</link><description>Recent content from 终端出口</description><generator>Hugo</generator><language>en</language><managingEditor>satori5ama@foxmail.com (Satori5ama)</managingEditor><webMaster>satori5ama@foxmail.com (Satori5ama)</webMaster><copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright><lastBuildDate>Mon, 18 Nov 2024 07:55:27 +0800</lastBuildDate><atom:link href="https://username.github.io/tags/crypto/index.xml" rel="self" type="application/rss+xml"/><item><title>[Crypto]环域理论及密码应用</title><link>https://username.github.io/post/ring-theory-and-its-applications-in-cryptography/</link><pubDate>Mon, 18 Nov 2024 07:55:27 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/ring-theory-and-its-applications-in-cryptography/</guid><description>
+<![CDATA[<h1>[Crypto]环域理论及密码应用</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        
+          <h2 id="1-环的定义">
+<a class="header-anchor" href="#1-%e7%8e%af%e7%9a%84%e5%ae%9a%e4%b9%89"></a>
+1. 环的定义
+</h2><h3 id="定义1511">
+<a class="header-anchor" href="#%e5%ae%9a%e4%b9%891511"></a>
+定义15.1.1
+</h3><p>设$G$是一个非空集合，$\cdot$是$G$上的一个代数运算，如果该运算满足结合律: $\forall a, b, c \in G$, $(a \cdot b) \cdot c = a \cdot (b \cdot c)$，则称 $(G, \cdot)$ 为一个半群 (Semigroup)</p>
+        
+        <hr><p>Published on 2024-11-18 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-11-18</p>]]></description><category>笔记</category></item><item><title>[Crypto]整数的阶和原根</title><link>https://username.github.io/post/order-of-an-integer-and-primitive-root/</link><pubDate>Mon, 21 Oct 2024 07:55:27 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/order-of-an-integer-and-primitive-root/</guid><description>
+<![CDATA[<h1>[Crypto]整数的阶和原根</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        
+          <blockquote>
+<p>你说的对，但是感觉不如原根。原根，是一个数学符号。设m是正整数，a是整数，若a模m的阶等于φ(m)，则称a为模m的一个原根。假设一个数g是P的原根，那么g^imodP的结果两两不同，且有1&lt;g&lt;P，0&lt;i&lt;P，归根到底就是g^(P-1)=1(modP)当且仅当指数为P-1的时候成立。(这里P是素数)。你的数学很差，我现在每天用原根都能做1e5次数据规模1e6的NTT，每个月差不多3e6次卷积，也就是现实生活中3e18次乘法运算，换算过来最少也要算1000年。虽然我只有14岁，但是已经超越了中国绝大多数人(包括你)的水平，这便是原根给我的资本</p>
+        
+        <hr><p>Published on 2024-10-21 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-10-21</p>]]></description><category>笔记</category></item><item><title>[Crypto]群理论</title><link>https://username.github.io/post/group-theory/</link><pubDate>Mon, 14 Oct 2024 07:55:27 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/group-theory/</guid><description>
+<![CDATA[<h1>[Crypto]群理论</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        
+          <h2 id="一-代数运算">
+<a class="header-anchor" href="#%e4%b8%80-%e4%bb%a3%e6%95%b0%e8%bf%90%e7%ae%97"></a>
+一、 代数运算
+</h2><h3 id="定义121">
+<a class="header-anchor" href="#%e5%ae%9a%e4%b9%89121"></a>
+定义12.1
+</h3><p>设 $M$ 是一个非空集合，如果存在一个对应规则 $f$，使得对 $M$ 中任意两个元素 $a$ 和 $b$ ，在 $M$ 中都有唯一确定的元素 $c$ 与它们对应，则称 $f$ 为 $M$ 上的一个<strong>代数运算</strong>(二元运算)，记作 $c=f(a,b)$ 或简记为$c=a·b$ .（<strong>封闭性</strong>）</p>
+        
+        <hr><p>Published on 2024-10-14 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-10-14</p>]]></description><category>笔记</category></item><item><title>[Crypto]基于大数分解的RSA分析</title><link>https://username.github.io/post/rsa-analysis/</link><pubDate>Tue, 08 Oct 2024 07:55:27 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/rsa-analysis/</guid><description>
+<![CDATA[<h1>[Crypto]基于大数分解的RSA分析</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        
+          <p>密码课乱写的笔记。</p>
+<h2 id="1-fermat-方法p-q较小">
+<a class="header-anchor" href="#1-fermat-%e6%96%b9%e6%b3%95p-q%e8%be%83%e5%b0%8f"></a>
+1. Fermat 方法(|p-q|较小)
+</h2><p>由</p>
+$$
+\frac{(p + q)^2}{4} - n = \frac{(p - q)^2}{4} - pq
+$$<p>如果 $|p - q|$ 小，则</p>
+$$
+\frac{(p - q)^2}{4} \text{也小，因此} \frac{(p + q)^2}{4} \text{稍大于} n, \frac{(p + q)}{2}\text{稍大于} \sqrt{n}
+$$<p>可得 $n$ 的如下分解步骤：</p>
+        
+        <hr><p>Published on 2024-10-08 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-10-08</p>]]></description><category>笔记</category></item></channel></rss>

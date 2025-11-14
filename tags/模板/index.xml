@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>模板 on 终端出口</title><link>https://username.github.io/tags/%E6%A8%A1%E6%9D%BF/</link><description>Recent content from 终端出口</description><generator>Hugo</generator><language>en</language><managingEditor>satori5ama@foxmail.com (Satori5ama)</managingEditor><webMaster>satori5ama@foxmail.com (Satori5ama)</webMaster><copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright><lastBuildDate>Fri, 25 Oct 2024 19:33:25 +0800</lastBuildDate><atom:link href="https://username.github.io/tags/%E6%A8%A1%E6%9D%BF/index.xml" rel="self" type="application/rss+xml"/><item><title>板子合集（自用）</title><link>https://username.github.io/post/template-collection/</link><pubDate>Fri, 25 Oct 2024 08:52:25 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/template-collection/</guid><description>
+<![CDATA[<h1>板子合集（自用）</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        
+          <h2 id="计算几何">
+<a class="header-anchor" href="#%e8%ae%a1%e7%ae%97%e5%87%a0%e4%bd%95"></a>
+计算几何
+</h2><h3 id="线段平行">
+<a class="header-anchor" href="#%e7%ba%bf%e6%ae%b5%e5%b9%b3%e8%a1%8c"></a>
+线段平行
+</h3><p>设线段端点分别为$P_1,P_2$和$P_3,P_4$</p>
+<p>则</p>
+$$\overrightarrow{P_1 P_2} \times \overrightarrow{P_3 P_4} = 0$$<h3 id="线段共线">
+<a class="header-anchor" href="#%e7%ba%bf%e6%ae%b5%e5%85%b1%e7%ba%bf"></a>
+线段共线
+</h3><p>设线段端点分别为$P_1,P_2$和$P_3,P_4$</p>
+        
+        <hr><p>Published on 2024-10-25 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-10-25</p>]]></description><category>笔记</category></item></channel></rss>

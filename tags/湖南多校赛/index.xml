@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>湖南多校赛 on 终端出口</title><link>https://username.github.io/tags/%E6%B9%96%E5%8D%97%E5%A4%9A%E6%A0%A1%E8%B5%9B/</link><description>Recent content from 终端出口</description><generator>Hugo</generator><language>en</language><managingEditor>satori5ama@foxmail.com (Satori5ama)</managingEditor><webMaster>satori5ama@foxmail.com (Satori5ama)</webMaster><copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright><lastBuildDate>Thu, 08 May 2025 16:52:25 +0800</lastBuildDate><atom:link href="https://username.github.io/tags/%E6%B9%96%E5%8D%97%E5%A4%9A%E6%A0%A1%E8%B5%9B/index.xml" rel="self" type="application/rss+xml"/><item><title>The 2025 Hunan Multi-School Programming Training Contest Round 6 - F</title><link>https://username.github.io/post/2025-hunan-multi-school-6-f/</link><pubDate>Thu, 08 May 2025 08:52:25 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/2025-hunan-multi-school-6-f/</guid><description>
+<![CDATA[<h1>The 2025 Hunan Multi-School Programming Training Contest Round 6 - F</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        
+          <p><a href="https://codeforces.com/gym/603392/problem/K">Problem - K - Codeforces</a></p>
+<p>To solve this problem, we need to determine if the students can be partitioned into two sets, A and B, such that A forms a complete subgraph (clique) and B forms an independent set (no edges between any two nodes in B). This problem can be efficiently solved by checking if the given graph is a split graph, which can be determined by analyzing the degree sequence of the graph.</p>
+        
+        <hr><p>Published on 2025-05-08 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2025-05-08</p>]]></description><category>题解</category></item><item><title>The 2024 Hunan Multi-School Programming Training Contest Round 4 (partial)</title><link>https://username.github.io/post/2024-hunan-multi-school-4/</link><pubDate>Mon, 01 Apr 2024 08:52:25 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/2024-hunan-multi-school-4/</guid><description>
+<![CDATA[<h1>The 2024 Hunan Multi-School Programming Training Contest Round 4 (partial)</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        
+          <p>公式好像写多了，Latex得加载好一会儿。</p>
+<p><a href="https://codeforces.com/gym/514727">Hunan Collegiate Championship Ⅳ 2024 (feat. Yokohama Regional 2021) - Codeforces</a></p>
+<h3 id="tag">
+<a class="header-anchor" href="#tag"></a>
+Tag
+</h3><p>随机化（蒙特卡洛法），偏序，图论转化</p>
+<h3 id="a">
+<a class="header-anchor" href="#a"></a>
+A
+</h3><p>相邻两个球相交首尾相接求体积并，给出公式，签到题</p>
+        
+        <hr><p>Published on 2024-04-01 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-04-28</p>]]></description><category>题解</category></item></channel></rss>

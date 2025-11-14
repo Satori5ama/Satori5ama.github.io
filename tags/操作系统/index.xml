@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>操作系统 on 终端出口</title><link>https://username.github.io/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</link><description>Recent content from 终端出口</description><generator>Hugo</generator><language>en</language><managingEditor>satori5ama@foxmail.com (Satori5ama)</managingEditor><webMaster>satori5ama@foxmail.com (Satori5ama)</webMaster><copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright><lastBuildDate>Tue, 22 Oct 2024 14:55:27 +0800</lastBuildDate><atom:link href="https://username.github.io/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/index.xml" rel="self" type="application/rss+xml"/><item><title>重生之我学操作系统——第31章 信号量</title><link>https://username.github.io/post/note-os-31-semaphore/</link><pubDate>Tue, 22 Oct 2024 14:55:27 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/note-os-31-semaphore/</guid><description>
+<![CDATA[<h1>重生之我学操作系统——第31章 信号量</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        
+          <h2 id="回顾">
+<a class="header-anchor" href="#%e5%9b%9e%e9%a1%be"></a>
+回顾：
+</h2><p>临界段问题</p>
+<ul>
+<li>在并发程序中，资源是共享的</li>
+<li>临界段资源：部分资源需要互斥使用</li>
+<li>利用“锁”的思想保护临界段资源</li>
+</ul>
+<p>并发的需求</p>
+<ul>
+<li>互斥执行、同步执行</li>
+</ul>
+<h2 id="一信号量的定义">
+<a class="header-anchor" href="#%e4%b8%80%e4%bf%a1%e5%8f%b7%e9%87%8f%e7%9a%84%e5%ae%9a%e4%b9%89"></a>
+一、信号量的定义
+</h2><p>控制并发的信号灯-信号量(semaphore)</p>
+        
+        <hr><p>Published on 2024-10-22 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-10-22</p>]]></description><category>笔记</category></item><item><title>重生之我学操作系统——第28章 锁</title><link>https://username.github.io/post/note-os-28-lock/</link><pubDate>Mon, 07 Oct 2024 16:55:27 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/note-os-28-lock/</guid><description>
+<![CDATA[<h1>重生之我学操作系统——第28章 锁</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        
+          <h2 id="一锁的基本思想">
+<a class="header-anchor" href="#%e4%b8%80%e9%94%81%e7%9a%84%e5%9f%ba%e6%9c%ac%e6%80%9d%e6%83%b3"></a>
+一、锁的基本思想
+</h2><ul>
+<li>通过加锁来保证临界区的原子性</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="kt">lock_t</span> <span class="n">mutex</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">...</span>
+</span></span><span class="line"><span class="cl"><span class="nf">lock</span><span class="p">(</span><span class="o">&amp;</span><span class="n">mutex</span><span class="p">);</span>	
+</span></span><span class="line"><span class="cl"><span class="c1">// 获取锁，如果已被占用， 则等待，直到获得锁为止
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">balance</span> <span class="o">=</span> <span class="n">balance</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="nf">unlock</span><span class="p">(</span><span class="o">&amp;</span><span class="n">mutex</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// 释放锁
+</span></span></span></code></pre></div><ul>
+<li>如何评价锁的实现
+<ul>
+<li>有效性：只有一个线程能拿到锁</li>
+<li>公平性：所有线程都有机会拿到锁
+<ul>
+<li>不会出现饿死情况</li>
+</ul>
+</li>
+<li>性能：时间开销小</li>
+</ul>
+</li>
+</ul>
+<p>锁的实现一般要使用某种特 殊硬件指令，但也可以不用</p>
+        
+        <hr><p>Published on 2024-10-07 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-10-08</p>]]></description><category>笔记</category></item><item><title>重生之我学操作系统——第29章 基于锁的并发数据结构</title><link>https://username.github.io/post/note-os-29-lock-based-concurrent-data-structures/</link><pubDate>Tue, 08 Oct 2024 16:55:27 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/note-os-29-lock-based-concurrent-data-structures/</guid><description>
+<![CDATA[<h1>重生之我学操作系统——第29章 基于锁的并发数据结构</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        
+          <h2 id="一并发计数器">
+<a class="header-anchor" href="#%e4%b8%80%e5%b9%b6%e5%8f%91%e8%ae%a1%e6%95%b0%e5%99%a8"></a>
+一、并发计数器
+</h2><h3 id="一个简单的计数器">
+<a class="header-anchor" href="#%e4%b8%80%e4%b8%aa%e7%ae%80%e5%8d%95%e7%9a%84%e8%ae%a1%e6%95%b0%e5%99%a8"></a>
+一个简单的计数器
+</h3><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="k">typedef</span> <span class="k">struct</span> <span class="kt">counter_t</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">value</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="kt">counter_t</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">init</span><span class="p">(</span><span class="kt">counter_t</span><span class="o">*</span> <span class="n">c</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">    <span class="n">c</span><span class="o">-&gt;</span><span class="n">value</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">increment</span><span class="p">(</span><span class="kt">counter_t</span><span class="o">*</span> <span class="n">c</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">    <span class="n">c</span><span class="o">-&gt;</span><span class="n">value</span><span class="o">++</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">decrement</span><span class="p">(</span><span class="kt">counter_t</span><span class="o">*</span> <span class="n">c</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">    <span class="n">c</span><span class="o">-&gt;</span><span class="n">value</span><span class="o">--</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">get</span><span class="p">(</span><span class="kt">counter_t</span><span class="o">*</span> <span class="n">c</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">rc</span> <span class="o">=</span> <span class="n">c</span><span class="o">-&gt;</span><span class="n">value</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">rc</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>哪些地方需要加锁?</p>
+<p>一种加锁方法：（全局都加上锁）</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="k">typedef</span> <span class="k">struct</span> <span class="kt">counter_t</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">value</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">pthread_mutex_t</span> <span class="n">lock</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="kt">counter_t</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">init</span><span class="p">(</span><span class="kt">counter_t</span><span class="o">*</span> <span class="n">c</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">    <span class="n">c</span><span class="o">-&gt;</span><span class="n">value</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">pthread_mutex_init</span><span class="p">(</span><span class="o">&amp;</span><span class="n">c</span><span class="o">-&gt;</span><span class="n">lock</span><span class="p">,</span> <span class="nb">NULL</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">increment</span><span class="p">(</span><span class="kt">counter_t</span><span class="o">*</span> <span class="n">c</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">pthread_mutex_lock</span><span class="p">(</span><span class="o">&amp;</span><span class="n">c</span><span class="o">-&gt;</span><span class="n">lock</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">c</span><span class="o">-&gt;</span><span class="n">value</span><span class="o">++</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">pthread_mutex_unlock</span><span class="p">(</span><span class="o">&amp;</span><span class="n">c</span><span class="o">-&gt;</span><span class="n">lock</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">decrement</span><span class="p">(</span><span class="kt">counter_t</span><span class="o">*</span> <span class="n">c</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">pthread_mutex_lock</span><span class="p">(</span><span class="o">&amp;</span><span class="n">c</span><span class="o">-&gt;</span><span class="n">lock</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">c</span><span class="o">-&gt;</span><span class="n">value</span><span class="o">--</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">pthread_mutex_unlock</span><span class="p">(</span><span class="o">&amp;</span><span class="n">c</span><span class="o">-&gt;</span><span class="n">lock</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">get</span><span class="p">(</span><span class="kt">counter_t</span><span class="o">*</span> <span class="n">c</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">pthread_mutex_lock</span><span class="p">(</span><span class="o">&amp;</span><span class="n">c</span><span class="o">-&gt;</span><span class="n">lock</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">rc</span> <span class="o">=</span> <span class="n">c</span><span class="o">-&gt;</span><span class="n">value</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">pthread_mutex_unlock</span><span class="p">(</span><span class="o">&amp;</span><span class="n">c</span><span class="o">-&gt;</span><span class="n">lock</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">rc</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>问题:扩展性差</p>
+        
+        <hr><p>Published on 2024-10-08 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-10-08</p>]]></description><category>笔记</category></item><item><title>重生之我学操作系统——第30章 条件变量</title><link>https://username.github.io/post/note-os-30-conditional-variable/</link><pubDate>Tue, 08 Oct 2024 17:55:27 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/note-os-30-conditional-variable/</guid><description>
+<![CDATA[<h1>重生之我学操作系统——第30章 条件变量</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        
+          <ul>
+<li>park()可以让调用线程休眠</li>
+<li>unpark(tid)可以唤醒tid标识的线程</li>
+<li>setpark()可以使线程从park直接返回（其他线程调用unpark后）</li>
+<li>Linux系统里提供futex实现类似机制</li>
+</ul>
+<h3 id="为什么我们需要条件变量">
+<a class="header-anchor" href="#%e4%b8%ba%e4%bb%80%e4%b9%88%e6%88%91%e4%bb%ac%e9%9c%80%e8%a6%81%e6%9d%a1%e4%bb%b6%e5%8f%98%e9%87%8f"></a>
+为什么我们需要条件变量
+</h3><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="kt">void</span><span class="o">*</span> <span class="nf">child</span><span class="p">(</span><span class="kt">void</span><span class="o">*</span> <span class="n">arg</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;child</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// XXX how to indicate we are done?
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="k">return</span> <span class="nb">NULL</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span><span class="o">*</span> <span class="n">argv</span><span class="p">[]){</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;parent: begin</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">pthread_t</span> <span class="n">c</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">pthread_create</span><span class="p">(</span><span class="o">&amp;</span><span class="n">c</span><span class="p">,</span> <span class="nb">NULL</span><span class="p">,</span> <span class="n">child</span><span class="p">,</span> <span class="nb">NULL</span><span class="p">);</span> <span class="c1">// create child
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="c1">// xxx how to wait for child?
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;parent: end</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h3 id="一种低效的实现">
+<a class="header-anchor" href="#%e4%b8%80%e7%a7%8d%e4%bd%8e%e6%95%88%e7%9a%84%e5%ae%9e%e7%8e%b0"></a>
+一种低效的实现
+</h3><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="k">volatile</span> <span class="kt">int</span> <span class="n">done</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">void</span><span class="o">*</span> <span class="nf">child</span><span class="p">(</span><span class="kt">void</span><span class="o">*</span> <span class="n">arg</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;child</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">done</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="nb">NULL</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span><span class="o">*</span> <span class="n">argv</span><span class="p">[]){</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;parent: begin</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">pthread_t</span> <span class="n">c</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">pthread_create</span><span class="p">(</span><span class="o">&amp;</span><span class="n">c</span><span class="p">,</span> <span class="nb">NULL</span><span class="p">,</span> <span class="n">child</span><span class="p">,</span> <span class="nb">NULL</span><span class="p">);</span> <span class="c1">// create child
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="k">while</span><span class="p">(</span><span class="n">done</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">;</span> <span class="c1">// spin
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;parent: end</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>目的:判断A是否执行完，A执行完后B才能执行</p>
+        
+        <hr><p>Published on 2024-10-08 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-10-08</p>]]></description><category>笔记</category></item><item><title>重生之我学操作系统——第26、27章 并发、线程API</title><link>https://username.github.io/post/note-os-26-27-concurrency-and-thread-api/</link><pubDate>Tue, 24 Sep 2024 16:55:27 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/note-os-26-27-concurrency-and-thread-api/</guid><description>
+<![CDATA[<h1>重生之我学操作系统——第26、27章 并发、线程API</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        
+          <h2 id="问题进程并发">
+<a class="header-anchor" href="#%e9%97%ae%e9%a2%98%e8%bf%9b%e7%a8%8b%e5%b9%b6%e5%8f%91"></a>
+问题：进程并发
+</h2><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="c1">// ... existing code ...
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">int</span> <span class="n">sum1</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">sum2</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">p1</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">i</span><span class="p">,</span> <span class="n">tmp</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="p">(</span><span class="n">i</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="mi">100</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> 
+</span></span><span class="line"><span class="cl">        <span class="n">tmp</span> <span class="o">+=</span> <span class="n">i</span><span class="p">;</span> 
+</span></span><span class="line"><span class="cl">    <span class="n">sum1</span> <span class="o">+=</span> <span class="n">tmp</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">p2</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">i</span><span class="p">,</span> <span class="n">tmp</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="p">(</span><span class="n">i</span> <span class="o">=</span> <span class="mi">101</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="mi">200</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> 
+</span></span><span class="line"><span class="cl">        <span class="n">tmp</span> <span class="o">+=</span> <span class="n">i</span><span class="p">;</span> 
+</span></span><span class="line"><span class="cl">    <span class="n">sum2</span> <span class="o">+=</span> <span class="n">tmp</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">p3</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">printf</span><span class="p">(</span><span class="s">&#34;sum: %d</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">sum1</span> <span class="o">+</span> <span class="n">sum2</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">pid_t</span> <span class="n">pid</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">stat</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">pid</span> <span class="o">=</span> <span class="n">fork</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">pid</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">p1</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">        <span class="n">exit</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span> 
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="n">p2</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="n">pid</span> <span class="o">=</span> <span class="n">wait</span><span class="p">(</span><span class="o">&amp;</span><span class="n">stat</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">p3</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><ul>
+<li>预期结果：20100</li>
+<li>实际结果：10500</li>
+<li>问题原因：
+<ul>
+<li>在  <code>main()</code>  函数中，<code>fork()</code>  创建了一个子进程。子进程执行  <code>p1()</code>，而父进程执行  <code>p2()</code>。</li>
+<li>子进程中的  <code>sum1</code>  的值不会被父进程所看到，因为<strong>每个进程都有自己的内存空间</strong>。</li>
+<li>因此，父进程中的  <code>sum1</code>  仍然是 0，而  <code>sum2</code>  是 15050（从 101 到 200 的和）。</li>
+</ul>
+</li>
+</ul>
+<h2 id="一-并发基本概念">
+<a class="header-anchor" href="#%e4%b8%80-%e5%b9%b6%e5%8f%91%e5%9f%ba%e6%9c%ac%e6%a6%82%e5%bf%b5"></a>
+一. 并发基本概念
+</h2><h3 id="1-并发的概念">
+<a class="header-anchor" href="#1-%e5%b9%b6%e5%8f%91%e7%9a%84%e6%a6%82%e5%bf%b5"></a>
+1. 并发的概念
+</h3><ul>
+<li>并发意味着多个计算任务在同一时间段发生
+<ul>
+<li>指在同一时间段内，多个任务在操作系统中交替执行。实际上，这些任务并不是真正同时执行，而是通过OS调度，快速地在多个任务之间切换，从而给用户一种多个任务同时进行的假象。</li>
+</ul>
+</li>
+<li>任务存在可并发成分</li>
+</ul>
+<p><img src="https://cdn.jsdmirror.cn/gh/Satori5ama/Figurebed@main/img/88.png" alt="enter image description here"></p>
+        
+        <hr><p>Published on 2024-09-24 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-09-24</p>]]></description><category>笔记</category></item><item><title>重生之我学操作系统——第21、22章 超越物理内存</title><link>https://username.github.io/post/note-os-21-22-beyond-physical-memory/</link><pubDate>Mon, 23 Sep 2024 16:55:27 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/note-os-21-22-beyond-physical-memory/</guid><description>
+<![CDATA[<h1>重生之我学操作系统——第21、22章 超越物理内存</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        
+          <h2 id="问题放宽假设">
+<a class="header-anchor" href="#%e9%97%ae%e9%a2%98%e6%94%be%e5%ae%bd%e5%81%87%e8%ae%be"></a>
+问题：放宽假设
+</h2><p>当虚拟地址空间大于物理内存大小时，如何超越物理内存进行存储？</p>
+<h2 id="一虚拟内存">
+<a class="header-anchor" href="#%e4%b8%80%e8%99%9a%e6%8b%9f%e5%86%85%e5%ad%98"></a>
+一、“虚拟内存”
+</h2><h3 id="1-基本原理">
+<a class="header-anchor" href="#1-%e5%9f%ba%e6%9c%ac%e5%8e%9f%e7%90%86"></a>
+1. 基本原理
+</h3><ul>
+<li>OS的存储是分层级(hierarchy)的
+<ul>
+<li>越上层的存储越快</li>
+<li>越底层的存储空间越大</li>
+<li>time-space trade-off</li>
+</ul>
+</li>
+</ul>
+<p>OS利用大而慢的设备，透明的提供巨大虚拟地址空间的假象</p>
+        
+        <hr><p>Published on 2024-09-23 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-09-23</p>]]></description><category>笔记</category></item><item><title>重生之我学操作系统——第二十章 使页表变小</title><link>https://username.github.io/post/note-os-20-reduce-the-page-table-size/</link><pubDate>Sun, 22 Sep 2024 16:55:27 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/note-os-20-reduce-the-page-table-size/</guid><description>
+<![CDATA[<h1>重生之我学操作系统——第二十章 使页表变小</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        
+          <h2 id="问题页表很大">
+<a class="header-anchor" href="#%e9%97%ae%e9%a2%98%e9%a1%b5%e8%a1%a8%e5%be%88%e5%a4%a7"></a>
+问题：页表很大
+</h2><ul>
+<li>32位地址空间(4GB)，带有4KB的页：20位的VPN，12位的offset
+<ul>
+<li>单个页表大小： $4 MB= 2^{20} entries *  4 Bytes$</li>
+</ul>
+</li>
+</ul>
+<h2 id="方案1采用更大的页">
+<a class="header-anchor" href="#%e6%96%b9%e6%a1%881%e9%87%87%e7%94%a8%e6%9b%b4%e5%a4%a7%e7%9a%84%e9%a1%b5"></a>
+方案1：采用更大的页
+</h2><ul>
+<li>32位地址空间(4GB)，带有16KB的页
+<ul>
+<li>单个页表大小 $=\frac{2^{32}}{2^{14}} *4 B = 1 MB$</li>
+</ul>
+</li>
+</ul>
+<h3 id="问题线性页表">
+<a class="header-anchor" href="#%e9%97%ae%e9%a2%98%e7%ba%bf%e6%80%a7%e9%a1%b5%e8%a1%a8"></a>
+问题：线性页表
+</h3><ul>
+<li>为一个进程的整个地址空间提供一个线性页表</li>
+<li>大量页表项是无效的！</li>
+</ul>
+<p><img src="https://cdn.jsdmirror.cn/gh/Satori5ama/Figurebed@main/img/62.png" alt="enter image description here"></p>
+        
+        <hr><p>Published on 2024-09-22 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-09-22</p>]]></description><category>笔记</category></item><item><title>重生之我学操作系统——第十八、十九章 分页、快速地址转换(TLB)</title><link>https://username.github.io/post/note-os-1819-paging-and-fast-address-translation/</link><pubDate>Tue, 17 Sep 2024 16:55:27 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/note-os-1819-paging-and-fast-address-translation/</guid><description>
+<![CDATA[<h1>重生之我学操作系统——第十八、十九章 分页、快速地址转换(TLB)</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        
+          <h2 id="一分页地址转换">
+<a class="header-anchor" href="#%e4%b8%80%e5%88%86%e9%a1%b5%e5%9c%b0%e5%9d%80%e8%bd%ac%e6%8d%a2"></a>
+一、“分页”地址转换
+</h2><h3 id="1-分页基本原理">
+<a class="header-anchor" href="#1-%e5%88%86%e9%a1%b5%e5%9f%ba%e6%9c%ac%e5%8e%9f%e7%90%86"></a>
+1. 分页基本原理
+</h3><p>分页(paging)是将地址空间划分成固定大小的分片单元， 称为页/页面(page)</p>
+<p>相对应的，物理内存同样也要分为相同大小的单元， 叫做页帧(page frame)</p>
+        
+        <hr><p>Published on 2024-09-17 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-09-17</p>]]></description><category>笔记</category></item><item><title>重生之我学操作系统——第十六、十七章 分段、空闲空间管理</title><link>https://username.github.io/post/note-os-1617-segmentation-free-space-management/</link><pubDate>Thu, 12 Sep 2024 16:55:27 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/note-os-1617-segmentation-free-space-management/</guid><description>
+<![CDATA[<h1>重生之我学操作系统——第十六、十七章 分段、空闲空间管理</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        
+          <p>多图警告。</p>
+<h2 id="上一章空间管理的问题">
+<a class="header-anchor" href="#%e4%b8%8a%e4%b8%80%e7%ab%a0%e7%a9%ba%e9%97%b4%e7%ae%a1%e7%90%86%e7%9a%84%e9%97%ae%e9%a2%98"></a>
+上一章空间管理的问题
+</h2><ul>
+<li>大量的空闲(free)空间 -
+<ul>
+<li>这些空闲空间实实在在的占用了物理内存</li>
+</ul>
+</li>
+<li>必须为进程的整个虚拟地址空间分配 连续的物理内存 -
+<ul>
+<li>会导致什么问题？</li>
+</ul>
+</li>
+</ul>
+<h2 id="一分段地址转换">
+<a class="header-anchor" href="#%e4%b8%80%e5%88%86%e6%ae%b5%e5%9c%b0%e5%9d%80%e8%bd%ac%e6%8d%a2"></a>
+一、“分段”地址转换
+</h2><h3 id="1-基本原理">
+<a class="header-anchor" href="#1-%e5%9f%ba%e6%9c%ac%e5%8e%9f%e7%90%86"></a>
+1. 基本原理
+</h3><ul>
+<li>段是虚拟地址空间中的一个连续片段
+<ul>
+<li>代码段、栈段、堆段</li>
+<li>对于每个段来说，都有它的基址和界限</li>
+<li>只需以段为单位，给进程分配连续物理内存</li>
+<li>物理地址 = 段基址 + 段内偏移 （段内偏移≠虚拟地址）</li>
+</ul>
+</li>
+</ul>
+<p><img src="https://cdn.jsdmirror.cn/gh/Satori5ama/Figurebed@main/img/28.png" alt="enter image description here"></p>
+        
+        <hr><p>Published on 2024-09-12 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-09-12</p>]]></description><category>笔记</category></item><item><title>重生之我学操作系统——第十三、十四、十五章 地址转换</title><link>https://username.github.io/post/note-os-131415-address-translation/</link><pubDate>Tue, 03 Sep 2024 16:55:27 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/note-os-131415-address-translation/</guid><description>
+<![CDATA[<h1>重生之我学操作系统——第十三、十四、十五章 地址转换</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        
+          <h2 id="一进程的地址空间">
+<a class="header-anchor" href="#%e4%b8%80%e8%bf%9b%e7%a8%8b%e7%9a%84%e5%9c%b0%e5%9d%80%e7%a9%ba%e9%97%b4"></a>
+一、进程的地址空间
+</h2><ul>
+<li>OS提供了一个物理内存的抽象:地址空间
+<ul>
+<li>包含运行程序的所有内存状态
+<ul>
+<li>代码:存储指令</li>
+<li>栈(向上增长):局部变量、函数参数、返回值等</li>
+<li>堆(向下增长):动态分配的内存:malloc、new</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>程序并不是真正存储在物理地址的0-16KB的地方</p>
+        
+        <hr><p>Published on 2024-09-03 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-09-03</p>]]></description><category>笔记</category></item></channel></rss>

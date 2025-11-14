@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>牛客比赛 on 终端出口</title><link>https://username.github.io/tags/%E7%89%9B%E5%AE%A2%E6%AF%94%E8%B5%9B/</link><description>Recent content from 终端出口</description><generator>Hugo</generator><language>en</language><managingEditor>satori5ama@foxmail.com (Satori5ama)</managingEditor><webMaster>satori5ama@foxmail.com (Satori5ama)</webMaster><copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright><lastBuildDate>Fri, 12 Apr 2024 19:52:25 +0800</lastBuildDate><atom:link href="https://username.github.io/tags/%E7%89%9B%E5%AE%A2%E6%AF%94%E8%B5%9B/index.xml" rel="self" type="application/rss+xml"/><item><title>牛客练习赛74</title><link>https://username.github.io/post/newcoder-challenge-74/</link><pubDate>Fri, 12 Apr 2024 08:52:25 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/newcoder-challenge-74/</guid><description>
+<![CDATA[<h1>牛客练习赛74</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        
+          <p>省流：唐了但没完全唐。</p>
+<p><a href="https://ac.nowcoder.com/acm/contest/78936">牛客挑战赛74</a></p>
+<h3 id="a">
+<a class="header-anchor" href="#a"></a>
+A
+</h3><p>简单DP。用第二维状态0表示没拿的多一，1表示拿和没拿的相等，2表示拿了的多一。</p>
+<p>挂了一发的原因是起始状态忘记初始化了。</p>
+        
+        <hr><p>Published on 2024-04-12 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-04-12</p>]]></description><category>题解</category></item><item><title>牛客练习赛123</title><link>https://username.github.io/post/newcoder123/</link><pubDate>Sat, 30 Mar 2024 08:52:25 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/newcoder123/</guid><description>
+<![CDATA[<h1>牛客练习赛123</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        
+          <p>哈哈，智商又被强奸了。</p>
+<p>是个人都会做B就我TM不会。</p>
+<p><a href="https://ac.nowcoder.com/acm/contest/76790">牛客练习赛123</a></p>
+<hr>
+<h3 id="a">
+<a class="header-anchor" href="#a"></a>
+A
+</h3><p>签到。按题目要求照做。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="kt">int</span> <span class="n">n</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">string</span> <span class="n">s</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
+</span></span><span class="line"><span class="cl">	<span class="n">ios</span><span class="o">::</span><span class="n">sync_with_stdio</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span><span class="n">cin</span><span class="p">.</span><span class="n">tie</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">	<span class="n">cin</span><span class="o">&gt;&gt;</span><span class="n">n</span><span class="o">&gt;&gt;</span><span class="n">s</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">	<span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="n">i</span><span class="o">&lt;</span><span class="n">n</span><span class="o">/</span><span class="mi">2</span><span class="o">+</span><span class="p">(</span><span class="n">n</span><span class="o">&amp;</span><span class="mi">1</span><span class="p">);</span><span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="n">putchar</span><span class="p">(</span><span class="n">s</span><span class="p">[</span><span class="n">i</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">	<span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<h3 id="b">
+<a class="header-anchor" href="#b"></a>
+B
+</h3><p>有笨蛋看到题目写着鸽巢原理不知道这题和鸽巢原理啥关系。</p>
+        
+        <hr><p>Published on 2024-03-30 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-03-30</p>]]></description><category>题解</category></item></channel></rss>

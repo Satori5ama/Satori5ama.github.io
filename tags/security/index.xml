@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Security on 终端出口</title><link>https://username.github.io/tags/security/</link><description>Recent content from 终端出口</description><generator>Hugo</generator><language>en</language><managingEditor>satori5ama@foxmail.com (Satori5ama)</managingEditor><webMaster>satori5ama@foxmail.com (Satori5ama)</webMaster><copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright><lastBuildDate>Wed, 08 Jan 2025 19:52:25 +0800</lastBuildDate><atom:link href="https://username.github.io/tags/security/index.xml" rel="self" type="application/rss+xml"/><item><title>源代码阅读项目——CheckKernelEATHook</title><link>https://username.github.io/post/source-code-reading-project-checkkerneleathook/</link><pubDate>Wed, 08 Jan 2025 08:52:25 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/source-code-reading-project-checkkerneleathook/</guid><description>
+<![CDATA[<h1>源代码阅读项目——CheckKernelEATHook</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        
+          <p><a href="https://github.com/ciyze0101/Windows-Rootkits/tree/master">ciyze0101/Windows-Rootkits</a></p>
+<h1 id="项目概况">
+<a class="header-anchor" href="#%e9%a1%b9%e7%9b%ae%e6%a6%82%e5%86%b5"></a>
+项目概况
+</h1><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">+---CheckKernelHook
+</span></span><span class="line"><span class="cl">|   |   CheckKernelHook.sln
+</span></span><span class="line"><span class="cl">|   |
+</span></span><span class="line"><span class="cl">|   \---CheckKernelHook
+</span></span><span class="line"><span class="cl">|       |   AddService.cpp
+</span></span><span class="line"><span class="cl">|       |   AddService.h
+</span></span><span class="line"><span class="cl">|       |   CheckKernelHook.aps
+</span></span><span class="line"><span class="cl">|       |   CheckKernelHook.cpp
+</span></span><span class="line"><span class="cl">|       |   CheckKernelHook.h
+</span></span><span class="line"><span class="cl">|       |   CheckKernelHook.rc
+</span></span><span class="line"><span class="cl">|       |   CheckKernelHook.vcxproj
+</span></span><span class="line"><span class="cl">|       |   CheckKernelHook.vcxproj.filters
+</span></span><span class="line"><span class="cl">|       |   CheckKernelHookDlg.cpp
+</span></span><span class="line"><span class="cl">|       |   CheckKernelHookDlg.h
+</span></span><span class="line"><span class="cl">|       |   resource.h
+</span></span><span class="line"><span class="cl">|       |   stdafx.cpp
+</span></span><span class="line"><span class="cl">|       |   stdafx.h
+</span></span><span class="line"><span class="cl">|       |   targetver.h
+</span></span><span class="line"><span class="cl">|       |   tempCodeRunnerFile.cpp
+</span></span><span class="line"><span class="cl">|       |
+</span></span><span class="line"><span class="cl">|       \---res
+</span></span><span class="line"><span class="cl">|               CheckKernelHook.ico
+</span></span><span class="line"><span class="cl">|               CheckKernelHook.rc2
+</span></span><span class="line"><span class="cl">|               ReadMe.txt
+</span></span><span class="line"><span class="cl">|
+</span></span><span class="line"><span class="cl">\---CheckKernelHookDrv
+</span></span><span class="line"><span class="cl">    |   CheckKernelHook.sln
+</span></span><span class="line"><span class="cl">    |
+</span></span><span class="line"><span class="cl">    \---CheckKernelHook
+</span></span><span class="line"><span class="cl">            CheckKernelHook.vcxproj
+</span></span><span class="line"><span class="cl">            CheckKernelHook.vcxproj.filters
+</span></span><span class="line"><span class="cl">            Common.c
+</span></span><span class="line"><span class="cl">            Common.h
+</span></span><span class="line"><span class="cl">            DriverEntry.c
+</span></span><span class="line"><span class="cl">            DriverEntry.h
+</span></span><span class="line"><span class="cl">            FileSystem.c
+</span></span><span class="line"><span class="cl">            FileSystem.h
+</span></span><span class="line"><span class="cl">            FixRelocation.c
+</span></span><span class="line"><span class="cl">            FixRelocation.h
+</span></span><span class="line"><span class="cl">            KernelHookCheck.c
+</span></span><span class="line"><span class="cl">            KernelHookCheck.h
+</span></span><span class="line"><span class="cl">            KernelReload.c
+</span></span><span class="line"><span class="cl">            KernelReload.h
+</span></span><span class="line"><span class="cl">            libdasm.c
+</span></span><span class="line"><span class="cl">            libdasm.h
+</span></span><span class="line"><span class="cl">            ReadMe.txt
+</span></span><span class="line"><span class="cl">            Reload.c
+</span></span><span class="line"><span class="cl">            Reload.h
+</span></span><span class="line"><span class="cl">            sources
+</span></span><span class="line"><span class="cl">            tables.h
+</span></span></code></pre></div><p>该项目是一个用于检测和管理Windows内核钩子（Kernel Hooks）的应用程序，主要包括用户界面部分和内核驱动部分。</p>
+        
+        <hr><p>Published on 2025-01-08 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2025-01-08</p>]]></description><category>笔记</category></item></channel></rss>
