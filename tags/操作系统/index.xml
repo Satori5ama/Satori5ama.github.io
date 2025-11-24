@@ -212,7 +212,7 @@
 </li>
 <li>任务存在可并发成分</li>
 </ul>
-<p><img src="https://cdn.jsdmirror.cn/gh/Satori5ama/Figurebed@main/img/88.png" alt="enter image description here"></p>
+<p><img src="https://jsd.hidict.cn/gh/Satori5ama/Figurebed@main/img/88.png" alt="enter image description here"></p>
         
         <hr><p>Published on 2024-09-24 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-09-24</p>]]></description><category>笔记</category></item><item><title>重生之我学操作系统——第21、22章 超越物理内存</title><link>https://username.github.io/post/note-os-21-22-beyond-physical-memory/</link><pubDate>Mon, 23 Sep 2024 16:55:27 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/note-os-21-22-beyond-physical-memory/</guid><description>
 <![CDATA[<h1>重生之我学操作系统——第21、22章 超越物理内存</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
@@ -268,7 +268,7 @@
 <li>为一个进程的整个地址空间提供一个线性页表</li>
 <li>大量页表项是无效的！</li>
 </ul>
-<p><img src="https://cdn.jsdmirror.cn/gh/Satori5ama/Figurebed@main/img/62.png" alt="enter image description here"></p>
+<p><img src="https://jsd.hidict.cn/gh/Satori5ama/Figurebed@main/img/62.png" alt="enter image description here"></p>
         
         <hr><p>Published on 2024-09-22 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-09-22</p>]]></description><category>笔记</category></item><item><title>重生之我学操作系统——第十八、十九章 分页、快速地址转换(TLB)</title><link>https://username.github.io/post/note-os-1819-paging-and-fast-address-translation/</link><pubDate>Tue, 17 Sep 2024 16:55:27 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/note-os-1819-paging-and-fast-address-translation/</guid><description>
 <![CDATA[<h1>重生之我学操作系统——第十八、十九章 分页、快速地址转换(TLB)</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
@@ -317,7 +317,7 @@
 </ul>
 </li>
 </ul>
-<p><img src="https://cdn.jsdmirror.cn/gh/Satori5ama/Figurebed@main/img/28.png" alt="enter image description here"></p>
+<p><img src="https://jsd.hidict.cn/gh/Satori5ama/Figurebed@main/img/28.png" alt="enter image description here"></p>
         
         <hr><p>Published on 2024-09-12 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-09-12</p>]]></description><category>笔记</category></item><item><title>重生之我学操作系统——第十三、十四、十五章 地址转换</title><link>https://username.github.io/post/note-os-131415-address-translation/</link><pubDate>Tue, 03 Sep 2024 16:55:27 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/note-os-131415-address-translation/</guid><description>
 <![CDATA[<h1>重生之我学操作系统——第十三、十四、十五章 地址转换</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>

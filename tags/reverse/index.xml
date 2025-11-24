@@ -95,17 +95,17 @@
         
           <p>参考文献：<a href="https://pinguw.github.io/2024/03/26/Reverse/LLVM/">去OLLVM平坦化([SUCTF2019]hardCPP) - Pinguw&rsquo;s Blog</a></p>
 <p>查壳，ELF64，无壳</p>
-<p><img src="https://cdn.jsdmirror.cn/gh/Satori5ama/Figurebed@main/img/reverse/1731943536190.png" alt="1731943536190"></p>
+<p><img src="https://jsd.hidict.cn/gh/Satori5ama/Figurebed@main/img/reverse/1731943536190.png" alt="1731943536190"></p>
 <p>IDA中发现有多层while嵌套，内部有一个switch控制分发，观察程序流程图发现明显的平坦化痕迹。</p>
-<p><img src="https://cdn.jsdmirror.cn/gh/Satori5ama/Figurebed@main/img/reverse/1731943702464.png" alt="1731943702464"></p>
+<p><img src="https://jsd.hidict.cn/gh/Satori5ama/Figurebed@main/img/reverse/1731943702464.png" alt="1731943702464"></p>
         
         <hr><p>Published on 2024-11-18 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-11-18</p>]]></description><category>题解</category></item><item><title>攻防世界 - maze</title><link>https://username.github.io/post/adworld-maze/</link><pubDate>Tue, 12 Nov 2024 08:55:27 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/adworld-maze/</guid><description>
 <![CDATA[<h1>攻防世界 - maze</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
         
           <p>查壳，64位elf，无壳。</p>
-<p><img src="https://cdn.jsdmirror.cn/gh/Satori5ama/Figurebed@main/img/reverse/clip_image002.png" alt="img"></p>
+<p><img src="https://jsd.hidict.cn/gh/Satori5ama/Figurebed@main/img/reverse/clip_image002.png" alt="img"></p>
 <p>进入main函数。</p>
-<p><img src="https://cdn.jsdmirror.cn/gh/Satori5ama/Figurebed@main/img/reverse/clip_image004.png" alt="img"></p>
+<p><img src="https://jsd.hidict.cn/gh/Satori5ama/Figurebed@main/img/reverse/clip_image004.png" alt="img"></p>
 <p>伪代码：</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="kr">__int64</span> <span class="kr">__fastcall</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">a1</span><span class="p">,</span> <span class="kt">char</span> <span class="o">**</span><span class="n">a2</span><span class="p">,</span> <span class="kt">char</span> <span class="o">**</span><span class="n">a3</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="p">{</span>
