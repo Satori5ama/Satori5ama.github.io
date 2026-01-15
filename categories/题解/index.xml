@@ -10,7 +10,12 @@
           <p>复现完以为自己写了wp，结果好像没有。只能转一篇了。</p>
 <p><a href="https://eutop1a.github.io/2023/04/01/2023XCTF-Final/">2023XCTF-Final - Eutop1a</a></p>
         
-        <hr><p>Published on 2024-12-23 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-12-23</p>]]></description><category>题解</category></item><item><title>攻防世界 - Re150</title><link>https://username.github.io/post/adworld-re150/</link><pubDate>Thu, 21 Nov 2024 08:55:27 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/adworld-re150/</guid><description>
+        <hr><p>Published on 2024-12-23 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-12-23</p>]]></description><category>题解</category></item><item><title>CISCN2024初赛re部分Wp</title><link>https://username.github.io/post/ciscn-wp/</link><pubDate>Wed, 18 Dec 2024 08:55:27 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/ciscn-wp/</guid><description>
+<![CDATA[<h1>CISCN2024初赛re部分Wp</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        
+          省流：糖丸了。
+        
+        <hr><p>Published on 2024-12-18 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-12-18</p>]]></description><category>题解</category></item><item><title>攻防世界 - Re150</title><link>https://username.github.io/post/adworld-re150/</link><pubDate>Thu, 21 Nov 2024 08:55:27 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/adworld-re150/</guid><description>
 <![CDATA[<h1>攻防世界 - Re150</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
         
           <p>参考文献：<a href="https://lrhtony.cn/2023/12/28/xctf-re150/">攻防世界-Re150 - lrhtony 的小站</a></p>
@@ -401,15 +406,4 @@ Tag
 A
 </h3><p>相邻两个球相交首尾相接求体积并，给出公式，签到题</p>
         
-        <hr><p>Published on 2024-04-01 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-04-28</p>]]></description><category>题解</category></item><item><title>牛客练习赛74</title><link>https://username.github.io/post/newcoder-challenge-74/</link><pubDate>Fri, 12 Apr 2024 08:52:25 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/newcoder-challenge-74/</guid><description>
-<![CDATA[<h1>牛客练习赛74</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
-        
-          <p>省流：唐了但没完全唐。</p>
-<p><a href="https://ac.nowcoder.com/acm/contest/78936">牛客挑战赛74</a></p>
-<h3 id="a">
-<a class="header-anchor" href="#a"></a>
-A
-</h3><p>简单DP。用第二维状态0表示没拿的多一，1表示拿和没拿的相等，2表示拿了的多一。</p>
-<p>挂了一发的原因是起始状态忘记初始化了。</p>
-        
-        <hr><p>Published on 2024-04-12 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-04-12</p>]]></description><category>题解</category></item></channel></rss>
+        <hr><p>Published on 2024-04-01 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-04-28</p>]]></description><category>题解</category></item></channel></rss>

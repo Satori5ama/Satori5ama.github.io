@@ -308,13 +308,7 @@ A
         <hr><p>Published on 2024-04-24 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-04-24</p>]]></description><category>笔记</category></item><item><title>牛客练习赛74</title><link>https://username.github.io/post/newcoder-challenge-74/</link><pubDate>Fri, 12 Apr 2024 08:52:25 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/newcoder-challenge-74/</guid><description>
 <![CDATA[<h1>牛客练习赛74</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
         
-          <p>省流：唐了但没完全唐。</p>
-<p><a href="https://ac.nowcoder.com/acm/contest/78936">牛客挑战赛74</a></p>
-<h3 id="a">
-<a class="header-anchor" href="#a"></a>
-A
-</h3><p>简单DP。用第二维状态0表示没拿的多一，1表示拿和没拿的相等，2表示拿了的多一。</p>
-<p>挂了一发的原因是起始状态忘记初始化了。</p>
+          省流：唐了但没完全唐。
         
         <hr><p>Published on 2024-04-12 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-04-12</p>]]></description><category>题解</category></item><item><title>The 2022 ICPC Asia Hangzhou Regional Programming Contest (partial)</title><link>https://username.github.io/post/2022-icpc-asia-hangzhou/</link><pubDate>Thu, 11 Apr 2024 08:52:25 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/2022-icpc-asia-hangzhou/</guid><description>
 <![CDATA[<h1>The 2022 ICPC Asia Hangzhou Regional Programming Contest (partial)</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
