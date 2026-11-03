@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ACM on 终端出口</title><link>https://username.github.io/tags/acm/</link><description>Recent content from 终端出口</description><generator>Hugo</generator><language>en</language><managingEditor>satori5ama@foxmail.com (Satori5ama)</managingEditor><webMaster>satori5ama@foxmail.com (Satori5ama)</webMaster><copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright><lastBuildDate>Thu, 08 May 2025 16:52:25 +0800</lastBuildDate><atom:link href="https://username.github.io/tags/acm/index.xml" rel="self" type="application/rss+xml"/><item><title>The 2025 Hunan Multi-School Programming Training Contest Round 6 - F</title><link>https://username.github.io/post/2025-hunan-multi-school-6-f/</link><pubDate>Thu, 08 May 2025 08:52:25 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/2025-hunan-multi-school-6-f/</guid><description>
-<![CDATA[<h1>The 2025 Hunan Multi-School Programming Training Contest Round 6 - F</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ACM on 终端出口</title><link>https://satori5ama.github.io/tags/acm/</link><description>Recent content from 终端出口</description><generator>Hugo</generator><language>zh-CN</language><managingEditor>satori5ama@foxmail.com (Satori5ama)</managingEditor><webMaster>satori5ama@foxmail.com (Satori5ama)</webMaster><copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright><lastBuildDate>Thu, 08 May 2025 16:52:25 +0800</lastBuildDate><atom:link href="https://satori5ama.github.io/tags/acm/index.xml" rel="self" type="application/rss+xml"/><item><title>The 2025 Hunan Multi-School Programming Training Contest Round 6 - F</title><link>https://satori5ama.github.io/post/2025-hunan-multi-school-6-f/</link><pubDate>Thu, 08 May 2025 08:52:25 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://satori5ama.github.io/post/2025-hunan-multi-school-6-f/</guid><description>
+<![CDATA[<h1>The 2025 Hunan Multi-School Programming Training Contest Round 6 - F</h1><p>作者：Satori5ama（satori5ama@foxmail.com）</p>
         
           <p><a href="https://codeforces.com/gym/603392/problem/K">Problem - K - Codeforces</a></p>
 <p>To solve this problem, we need to determine if the students can be partitioned into two sets, A and B, such that A forms a complete subgraph (clique) and B forms an independent set (no edges between any two nodes in B). This problem can be efficiently solved by checking if the given graph is a split graph, which can be determined by analyzing the degree sequence of the graph.</p>
         
-        <hr><p>Published on 2025-05-08 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2025-05-08</p>]]></description><category>题解</category></item><item><title>板子合集（自用）</title><link>https://username.github.io/post/template-collection/</link><pubDate>Fri, 25 Oct 2024 08:52:25 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/template-collection/</guid><description>
-<![CDATA[<h1>板子合集（自用）</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        <hr><p>本文2025-05-08首发于<a href='https://satori5ama.github.io/'>终端出口</a>，最后修改于2025-05-08</p>]]></description><category>题解</category></item><item><title>板子合集（自用）</title><link>https://satori5ama.github.io/post/template-collection/</link><pubDate>Fri, 25 Oct 2024 08:52:25 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://satori5ama.github.io/post/template-collection/</guid><description>
+<![CDATA[<h1>板子合集（自用）</h1><p>作者：Satori5ama（satori5ama@foxmail.com）</p>
         
           <h2 id="计算几何">
 <a class="header-anchor" href="#%e8%ae%a1%e7%ae%97%e5%87%a0%e4%bd%95"></a>
@@ -20,8 +20,8 @@ $$\overrightarrow{P_1 P_2} \times \overrightarrow{P_3 P_4} = 0$$<h3 id="线段�
 线段共线
 </h3><p>设线段端点分别为$P_1,P_2$和$P_3,P_4$</p>
         
-        <hr><p>Published on 2024-10-25 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-10-25</p>]]></description><category>笔记</category></item><item><title>2024 ICPC Invitational Wuhan Site (partial)</title><link>https://username.github.io/post/2024-icpc-invitational-wuhan-site/</link><pubDate>Mon, 01 Apr 2024 08:52:25 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/2024-icpc-invitational-wuhan-site/</guid><description>
-<![CDATA[<h1>2024 ICPC Invitational Wuhan Site (partial)</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        <hr><p>本文2024-10-25首发于<a href='https://satori5ama.github.io/'>终端出口</a>，最后修改于2024-10-25</p>]]></description><category>笔记</category></item><item><title>2024 ICPC Invitational Wuhan Site (partial)</title><link>https://satori5ama.github.io/post/2024-icpc-invitational-wuhan-site/</link><pubDate>Mon, 01 Apr 2024 08:52:25 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://satori5ama.github.io/post/2024-icpc-invitational-wuhan-site/</guid><description>
+<![CDATA[<h1>2024 ICPC Invitational Wuhan Site (partial)</h1><p>作者：Satori5ama（satori5ama@foxmail.com）</p>
         
           <p>我真傻，真的</p>
 <p>好多小马题，<del>小马害人</del></p>
@@ -32,19 +32,19 @@ I
 </h1><p>水签，比较相邻位逆序个数就行了</p>
 <p>就这改题时看了一眼就会的破题我比赛还看了5分钟，紫砂了。</p>
         
-        <hr><p>Published on 2024-04-01 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-07-21</p>]]></description><category>题解</category></item><item><title>两凸包间距离——GJK算法（POJ 3608）</title><link>https://username.github.io/post/gjk-algorithm/</link><pubDate>Sun, 21 Jul 2024 08:52:25 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/gjk-algorithm/</guid><description>
-<![CDATA[<h1>两凸包间距离——GJK算法（POJ 3608）</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        <hr><p>本文2024-04-01首发于<a href='https://satori5ama.github.io/'>终端出口</a>，最后修改于2024-07-21</p>]]></description><category>题解</category></item><item><title>两凸包间距离——GJK算法（POJ 3608）</title><link>https://satori5ama.github.io/post/gjk-algorithm/</link><pubDate>Sun, 21 Jul 2024 08:52:25 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://satori5ama.github.io/post/gjk-algorithm/</guid><description>
+<![CDATA[<h1>两凸包间距离——GJK算法（POJ 3608）</h1><p>作者：Satori5ama（satori5ama@foxmail.com）</p>
         
           <p>起因：数模期末大作业，求空域在平面投影上相互之间最短距离是否小于安全距离。空域投影的形状有圆形，凸多边形，跑道形。</p>
 <p>使用GJK算法的代码：</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="cp">#include&lt;bits/stdc++.h&gt;  
-</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>  
+</span></span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>  
 </span></span><span class="line"><span class="cl"><span class="cp">#define double long double  
 </span></span></span><span class="line"><span class="cl"><span class="cp">#define x first  
 </span></span></span><span class="line"><span class="cl"><span class="cp">#define y second  
 </span></span></span><span class="line"><span class="cl"><span class="cp">#define MIN(a,b,c,d) (min(min(min(a,b),c),d))  
 </span></span></span><span class="line"><span class="cl"><span class="cp">#define MAX(a,b,c,d) (max(max(max(a,b),c),d))  
-</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="k">typedef</span> <span class="n">pair</span><span class="o">&lt;</span><span class="kt">double</span><span class="p">,</span> <span class="kt">double</span><span class="o">&gt;</span> <span class="n">P</span><span class="p">;</span>  
+</span></span></span><span class="line"><span class="cl"><span class="k">typedef</span> <span class="n">pair</span><span class="o">&lt;</span><span class="kt">double</span><span class="p">,</span> <span class="kt">double</span><span class="o">&gt;</span> <span class="n">P</span><span class="p">;</span>  
 </span></span><span class="line"><span class="cl"><span class="k">typedef</span> <span class="kt">unsigned</span> <span class="n">uint</span><span class="p">;</span>  
 </span></span><span class="line"><span class="cl"><span class="k">const</span> <span class="n">P</span> <span class="n">origin</span> <span class="o">=</span> <span class="n">P</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>  
 </span></span><span class="line"><span class="cl"><span class="k">const</span> <span class="kt">double</span> <span class="n">eps</span> <span class="o">=</span> <span class="mf">1e-6</span><span class="p">;</span>    
@@ -204,8 +204,8 @@ I
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div><p>发现POJ 3608其实是这个问题的一个子集，稍微改改输入部分可以通过板子题POJ 3608。</p>
         
-        <hr><p>Published on 2024-07-21 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-07-21</p>]]></description><category>题解</category></item><item><title>Codeforces Round 921 (Div. 2)</title><link>https://username.github.io/post/codeforces-round-921-div.-2/</link><pubDate>Mon, 20 May 2024 16:55:27 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/codeforces-round-921-div.-2/</guid><description>
-<![CDATA[<h1>Codeforces Round 921 (Div. 2)</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        <hr><p>本文2024-07-21首发于<a href='https://satori5ama.github.io/'>终端出口</a>，最后修改于2024-07-21</p>]]></description><category>题解</category></item><item><title>Codeforces Round 921 (Div. 2)</title><link>https://satori5ama.github.io/post/codeforces-round-921-div-2/</link><pubDate>Mon, 20 May 2024 16:55:27 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://satori5ama.github.io/post/codeforces-round-921-div-2/</guid><description>
+<![CDATA[<h1>Codeforces Round 921 (Div. 2)</h1><p>作者：Satori5ama（satori5ama@foxmail.com）</p>
         
           <p>好久以前的div2拖到现在才改真是唐完了。</p>
 <p><a href="https://codeforces.com/contest/1925">Dashboard - Codeforces Round 921 (Div. 2) - Codeforces</a></p>
@@ -219,8 +219,8 @@ D
 </h1><p>概率论没学好导致的。</p>
 <p>期望的贡献可以分为两部分，第一部分是原始$f_i$数组产生的贡献，第二部分是增加的数产生的贡献，注意到第二部分和原数组没有任何关系，只与增加的方案相关。</p>
         
-        <hr><p>Published on 2024-05-20 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-05-24</p>]]></description><category>题解</category></item><item><title>ICPC2024（武汉邀请赛）游记</title><link>https://username.github.io/post/icpc-2024-wuhan/</link><pubDate>Tue, 30 Apr 2024 16:55:27 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/icpc-2024-wuhan/</guid><description>
-<![CDATA[<h1>ICPC2024（武汉邀请赛）游记</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        <hr><p>本文2024-05-20首发于<a href='https://satori5ama.github.io/'>终端出口</a>，最后修改于2024-05-24</p>]]></description><category>题解</category></item><item><title>ICPC2024（武汉邀请赛）游记</title><link>https://satori5ama.github.io/post/icpc-2024-wuhan/</link><pubDate>Tue, 30 Apr 2024 16:55:27 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://satori5ama.github.io/post/icpc-2024-wuhan/</guid><description>
+<![CDATA[<h1>ICPC2024（武汉邀请赛）游记</h1><p>作者：Satori5ama（satori5ama@foxmail.com）</p>
         
           <p>省流：铁了</p>
 <h1 id="day--1">
@@ -230,8 +230,8 @@ Day -1
 <p>五一的票是真难抢啊，两点出的校门但是坐的这班是五点开的，在火车站刷了两小时手机，<del>比高铁开的时间还长</del>。</p>
 <p>出了校门心情就轻松起来了，也是，这几周已经接连被头痛，作业，慕课等一堆事情折磨的不成人样了。整的比赛前训练都耽搁了一段时间，本来前一段刚刷出来一点手感的，现在估计又没有了。</p>
         
-        <hr><p>Published on 2024-04-30 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-05-02</p>]]></description><category>游记</category></item><item><title>The 2024 Hunan Multi-School Programming Training Contest Round 4 (partial)</title><link>https://username.github.io/post/2024-hunan-multi-school-4/</link><pubDate>Mon, 01 Apr 2024 08:52:25 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/2024-hunan-multi-school-4/</guid><description>
-<![CDATA[<h1>The 2024 Hunan Multi-School Programming Training Contest Round 4 (partial)</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        <hr><p>本文2024-04-30首发于<a href='https://satori5ama.github.io/'>终端出口</a>，最后修改于2024-05-02</p>]]></description><category>游记</category></item><item><title>The 2024 Hunan Multi-School Programming Training Contest Round 4 (partial)</title><link>https://satori5ama.github.io/post/2024-hunan-multi-school-4/</link><pubDate>Mon, 01 Apr 2024 08:52:25 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://satori5ama.github.io/post/2024-hunan-multi-school-4/</guid><description>
+<![CDATA[<h1>The 2024 Hunan Multi-School Programming Training Contest Round 4 (partial)</h1><p>作者：Satori5ama（satori5ama@foxmail.com）</p>
         
           <p>公式好像写多了，Latex得加载好一会儿。</p>
 <p><a href="https://codeforces.com/gym/514727">Hunan Collegiate Championship Ⅳ 2024 (feat. Yokohama Regional 2021) - Codeforces</a></p>
@@ -244,8 +244,8 @@ Tag
 A
 </h3><p>相邻两个球相交首尾相接求体积并，给出公式，签到题</p>
         
-        <hr><p>Published on 2024-04-01 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-04-28</p>]]></description><category>题解</category></item><item><title>2022 CCPC Guilin Site G</title><link>https://username.github.io/post/2022-ccpc-guilin-site-g/</link><pubDate>Wed, 24 Apr 2024 08:52:25 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/2022-ccpc-guilin-site-g/</guid><description>
-<![CDATA[<h1>2022 CCPC Guilin Site G</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        <hr><p>本文2024-04-01首发于<a href='https://satori5ama.github.io/'>终端出口</a>，最后修改于2024-04-28</p>]]></description><category>题解</category></item><item><title>2022 CCPC Guilin Site G</title><link>https://satori5ama.github.io/post/2022-ccpc-guilin-site-g/</link><pubDate>Wed, 24 Apr 2024 08:52:25 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://satori5ama.github.io/post/2022-ccpc-guilin-site-g/</guid><description>
+<![CDATA[<h1>2022 CCPC Guilin Site G</h1><p>作者：Satori5ama（satori5ama@foxmail.com）</p>
         
           <p>Luckyblock写了就是我写了（</p>
 <p><a href="https://www.cnblogs.com/luckyblock/p/18129937">2022 CCPC Guilin Site G - Luckyblock - 博客园 (cnblogs.com)</a></p>
@@ -305,17 +305,17 @@ A
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div>
         
-        <hr><p>Published on 2024-04-24 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-04-24</p>]]></description><category>笔记</category></item><item><title>牛客练习赛74</title><link>https://username.github.io/post/newcoder-challenge-74/</link><pubDate>Fri, 12 Apr 2024 08:52:25 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/newcoder-challenge-74/</guid><description>
-<![CDATA[<h1>牛客练习赛74</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        <hr><p>本文2024-04-24首发于<a href='https://satori5ama.github.io/'>终端出口</a>，最后修改于2024-04-24</p>]]></description><category>笔记</category></item><item><title>牛客练习赛74</title><link>https://satori5ama.github.io/post/newcoder-challenge-74/</link><pubDate>Fri, 12 Apr 2024 08:52:25 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://satori5ama.github.io/post/newcoder-challenge-74/</guid><description>
+<![CDATA[<h1>牛客练习赛74</h1><p>作者：Satori5ama（satori5ama@foxmail.com）</p>
         
           省流：唐了但没完全唐。
         
-        <hr><p>Published on 2024-04-12 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-04-12</p>]]></description><category>题解</category></item><item><title>The 2022 ICPC Asia Hangzhou Regional Programming Contest (partial)</title><link>https://username.github.io/post/2022-icpc-asia-hangzhou/</link><pubDate>Thu, 11 Apr 2024 08:52:25 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/2022-icpc-asia-hangzhou/</guid><description>
-<![CDATA[<h1>The 2022 ICPC Asia Hangzhou Regional Programming Contest (partial)</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        <hr><p>本文2024-04-12首发于<a href='https://satori5ama.github.io/'>终端出口</a>，最后修改于2024-04-12</p>]]></description><category>题解</category></item><item><title>The 2022 ICPC Asia Hangzhou Regional Programming Contest (partial)</title><link>https://satori5ama.github.io/post/2022-icpc-asia-hangzhou/</link><pubDate>Thu, 11 Apr 2024 08:52:25 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://satori5ama.github.io/post/2022-icpc-asia-hangzhou/</guid><description>
+<![CDATA[<h1>The 2022 ICPC Asia Hangzhou Regional Programming Contest (partial)</h1><p>作者：Satori5ama（satori5ama@foxmail.com）</p>
         
           <p><a href="https://codeforces.com/gym/104090">The 2022 ICPC Asia Hangzhou Regional Programming Contest - Codeforces</a></p>
 <p>省流：自己打的vp，但是在应该会做的简单数论和DP上疯狂挂分，唐完了。</p>
 <p>最后没打过一群学弟，紫砂了。</p>
 <p><del>建议我和大一组一队让我混个Au</del></p>
         
-        <hr><p>Published on 2024-04-11 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-04-11</p>]]></description><category>题解</category></item></channel></rss>
+        <hr><p>本文2024-04-11首发于<a href='https://satori5ama.github.io/'>终端出口</a>，最后修改于2024-04-11</p>]]></description><category>题解</category></item></channel></rss>

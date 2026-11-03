@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>计算几何 on 终端出口</title><link>https://username.github.io/tags/%E8%AE%A1%E7%AE%97%E5%87%A0%E4%BD%95/</link><description>Recent content from 终端出口</description><generator>Hugo</generator><language>en</language><managingEditor>satori5ama@foxmail.com (Satori5ama)</managingEditor><webMaster>satori5ama@foxmail.com (Satori5ama)</webMaster><copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright><lastBuildDate>Sun, 21 Jul 2024 19:52:25 +0800</lastBuildDate><atom:link href="https://username.github.io/tags/%E8%AE%A1%E7%AE%97%E5%87%A0%E4%BD%95/index.xml" rel="self" type="application/rss+xml"/><item><title>两凸包间距离——GJK算法（POJ 3608）</title><link>https://username.github.io/post/gjk-algorithm/</link><pubDate>Sun, 21 Jul 2024 08:52:25 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/gjk-algorithm/</guid><description>
-<![CDATA[<h1>两凸包间距离——GJK算法（POJ 3608）</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>计算几何 on 终端出口</title><link>https://satori5ama.github.io/tags/%E8%AE%A1%E7%AE%97%E5%87%A0%E4%BD%95/</link><description>Recent content from 终端出口</description><generator>Hugo</generator><language>zh-CN</language><managingEditor>satori5ama@foxmail.com (Satori5ama)</managingEditor><webMaster>satori5ama@foxmail.com (Satori5ama)</webMaster><copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright><lastBuildDate>Sun, 21 Jul 2024 19:52:25 +0800</lastBuildDate><atom:link href="https://satori5ama.github.io/tags/%E8%AE%A1%E7%AE%97%E5%87%A0%E4%BD%95/index.xml" rel="self" type="application/rss+xml"/><item><title>两凸包间距离——GJK算法（POJ 3608）</title><link>https://satori5ama.github.io/post/gjk-algorithm/</link><pubDate>Sun, 21 Jul 2024 08:52:25 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://satori5ama.github.io/post/gjk-algorithm/</guid><description>
+<![CDATA[<h1>两凸包间距离——GJK算法（POJ 3608）</h1><p>作者：Satori5ama（satori5ama@foxmail.com）</p>
         
           <p>起因：数模期末大作业，求空域在平面投影上相互之间最短距离是否小于安全距离。空域投影的形状有圆形，凸多边形，跑道形。</p>
 <p>使用GJK算法的代码：</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="cp">#include&lt;bits/stdc++.h&gt;  
-</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>  
+</span></span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>  
 </span></span><span class="line"><span class="cl"><span class="cp">#define double long double  
 </span></span></span><span class="line"><span class="cl"><span class="cp">#define x first  
 </span></span></span><span class="line"><span class="cl"><span class="cp">#define y second  
 </span></span></span><span class="line"><span class="cl"><span class="cp">#define MIN(a,b,c,d) (min(min(min(a,b),c),d))  
 </span></span></span><span class="line"><span class="cl"><span class="cp">#define MAX(a,b,c,d) (max(max(max(a,b),c),d))  
-</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="k">typedef</span> <span class="n">pair</span><span class="o">&lt;</span><span class="kt">double</span><span class="p">,</span> <span class="kt">double</span><span class="o">&gt;</span> <span class="n">P</span><span class="p">;</span>  
+</span></span></span><span class="line"><span class="cl"><span class="k">typedef</span> <span class="n">pair</span><span class="o">&lt;</span><span class="kt">double</span><span class="p">,</span> <span class="kt">double</span><span class="o">&gt;</span> <span class="n">P</span><span class="p">;</span>  
 </span></span><span class="line"><span class="cl"><span class="k">typedef</span> <span class="kt">unsigned</span> <span class="n">uint</span><span class="p">;</span>  
 </span></span><span class="line"><span class="cl"><span class="k">const</span> <span class="n">P</span> <span class="n">origin</span> <span class="o">=</span> <span class="n">P</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>  
 </span></span><span class="line"><span class="cl"><span class="k">const</span> <span class="kt">double</span> <span class="n">eps</span> <span class="o">=</span> <span class="mf">1e-6</span><span class="p">;</span>    
@@ -170,8 +170,8 @@
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div><p>发现POJ 3608其实是这个问题的一个子集，稍微改改输入部分可以通过板子题POJ 3608。</p>
         
-        <hr><p>Published on 2024-07-21 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-07-21</p>]]></description><category>题解</category></item><item><title>计算几何入门笔记（学习中）</title><link>https://username.github.io/post/computational-geometry/</link><pubDate>Mon, 18 Mar 2024 08:52:25 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/computational-geometry/</guid><description>
-<![CDATA[<h1>计算几何入门笔记（学习中）</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        <hr><p>本文2024-07-21首发于<a href='https://satori5ama.github.io/'>终端出口</a>，最后修改于2024-07-21</p>]]></description><category>题解</category></item><item><title>计算几何入门笔记（学习中）</title><link>https://satori5ama.github.io/post/computational-geometry/</link><pubDate>Mon, 18 Mar 2024 08:52:25 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://satori5ama.github.io/post/computational-geometry/</guid><description>
+<![CDATA[<h1>计算几何入门笔记（学习中）</h1><p>作者：Satori5ama（satori5ama@foxmail.com）</p>
         
           <p>因为懒得写博客所以大部分是搬运的。</p>
 <h2 id="参考文献">
@@ -190,4 +190,4 @@
 线段平行
 </h3><p>设线段端点分别为$P_1,P_2$和$P_3,P_4$</p>
         
-        <hr><p>Published on 2024-03-18 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-04-09</p>]]></description><category>笔记</category></item></channel></rss>
+        <hr><p>本文2024-03-18首发于<a href='https://satori5ama.github.io/'>终端出口</a>，最后修改于2024-04-09</p>]]></description><category>笔记</category></item></channel></rss>

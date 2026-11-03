@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>杂项 on 终端出口</title><link>https://username.github.io/categories/%E6%9D%82%E9%A1%B9/</link><description>Recent content from 终端出口</description><generator>Hugo</generator><language>en</language><managingEditor>satori5ama@foxmail.com (Satori5ama)</managingEditor><webMaster>satori5ama@foxmail.com (Satori5ama)</webMaster><copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright><lastBuildDate>Thu, 19 Dec 2024 09:06:54 +0800</lastBuildDate><atom:link href="https://username.github.io/categories/%E6%9D%82%E9%A1%B9/index.xml" rel="self" type="application/rss+xml"/><item><title>随手写的英文火星文生成器</title><link>https://username.github.io/post/martian-language-conversion-script/</link><pubDate>Thu, 19 Dec 2024 09:06:54 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/martian-language-conversion-script/</guid><description>
-<![CDATA[<h1>随手写的英文火星文生成器</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>杂项 on 终端出口</title><link>https://satori5ama.github.io/categories/%E6%9D%82%E9%A1%B9/</link><description>Recent content from 终端出口</description><generator>Hugo</generator><language>zh-CN</language><managingEditor>satori5ama@foxmail.com (Satori5ama)</managingEditor><webMaster>satori5ama@foxmail.com (Satori5ama)</webMaster><copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright><lastBuildDate>Thu, 19 Dec 2024 09:06:54 +0800</lastBuildDate><atom:link href="https://satori5ama.github.io/categories/%E6%9D%82%E9%A1%B9/index.xml" rel="self" type="application/rss+xml"/><item><title>随手写的英文火星文生成器</title><link>https://satori5ama.github.io/post/martian-language-conversion-script/</link><pubDate>Thu, 19 Dec 2024 09:06:54 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://satori5ama.github.io/post/martian-language-conversion-script/</guid><description>
+<![CDATA[<h1>随手写的英文火星文生成器</h1><p>作者：Satori5ama（satori5ama@foxmail.com）</p>
         
           <p>写了个英文火星文转换脚本，<del>用来生成flag</del></p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">replace_letters</span><span class="p">(</span><span class="n">input_str</span><span class="p">):</span>
@@ -20,12 +20,12 @@
 </span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;转换后的字符串: </span><span class="si">{</span><span class="n">output_string</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
 </span></span></code></pre></div><p><del>又水了一期博客，你有这时间怎么不多复现几个样本</del></p>
         
-        <hr><p>Published on 2024-12-19 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-12-19</p>]]></description><category>杂项</category></item><item><title>歌单</title><link>https://username.github.io/post/song-sheet/</link><pubDate>Mon, 11 Dec 2023 11:06:45 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/song-sheet/</guid><description>
-<![CDATA[<h1>歌单</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        <hr><p>本文2024-12-19首发于<a href='https://satori5ama.github.io/'>终端出口</a>，最后修改于2024-12-19</p>]]></description><category>杂项</category></item><item><title>歌单</title><link>https://satori5ama.github.io/post/song-sheet/</link><pubDate>Mon, 11 Dec 2023 11:06:45 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://satori5ama.github.io/post/song-sheet/</guid><description>
+<![CDATA[<h1>歌单</h1><p>作者：Satori5ama（satori5ama@foxmail.com）</p>
         
           <p>Shy鉴定好歌的标准有两种，一种是听着舒服，一种是听着难受。</p>
 <p>放上一些感受很深的曲子，可能会附上一些乐评。</p>
 <p>（建议倒序阅读）</p>
 <p>（12.14）我刚刚试了一下，这个页面上的所有歌曲可以同时播放，效果炸裂（</p>
         
-        <hr><p>Published on 2023-12-11 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2023-12-14</p>]]></description><category>杂项</category></item></channel></rss>
+        <hr><p>本文2023-12-11首发于<a href='https://satori5ama.github.io/'>终端出口</a>，最后修改于2023-12-14</p>]]></description><category>杂项</category></item></channel></rss>

@@ -1,33 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>题解 on 终端出口</title><link>https://username.github.io/categories/%E9%A2%98%E8%A7%A3/</link><description>Recent content from 终端出口</description><generator>Hugo</generator><language>en</language><managingEditor>satori5ama@foxmail.com (Satori5ama)</managingEditor><webMaster>satori5ama@foxmail.com (Satori5ama)</webMaster><copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright><lastBuildDate>Thu, 08 May 2025 16:52:25 +0800</lastBuildDate><atom:link href="https://username.github.io/categories/%E9%A2%98%E8%A7%A3/index.xml" rel="self" type="application/rss+xml"/><item><title>The 2025 Hunan Multi-School Programming Training Contest Round 6 - F</title><link>https://username.github.io/post/2025-hunan-multi-school-6-f/</link><pubDate>Thu, 08 May 2025 08:52:25 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/2025-hunan-multi-school-6-f/</guid><description>
-<![CDATA[<h1>The 2025 Hunan Multi-School Programming Training Contest Round 6 - F</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>题解 on 终端出口</title><link>https://satori5ama.github.io/categories/%E9%A2%98%E8%A7%A3/</link><description>Recent content from 终端出口</description><generator>Hugo</generator><language>zh-CN</language><managingEditor>satori5ama@foxmail.com (Satori5ama)</managingEditor><webMaster>satori5ama@foxmail.com (Satori5ama)</webMaster><copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright><lastBuildDate>Thu, 08 May 2025 16:52:25 +0800</lastBuildDate><atom:link href="https://satori5ama.github.io/categories/%E9%A2%98%E8%A7%A3/index.xml" rel="self" type="application/rss+xml"/><item><title>The 2025 Hunan Multi-School Programming Training Contest Round 6 - F</title><link>https://satori5ama.github.io/post/2025-hunan-multi-school-6-f/</link><pubDate>Thu, 08 May 2025 08:52:25 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://satori5ama.github.io/post/2025-hunan-multi-school-6-f/</guid><description>
+<![CDATA[<h1>The 2025 Hunan Multi-School Programming Training Contest Round 6 - F</h1><p>作者：Satori5ama（satori5ama@foxmail.com）</p>
         
           <p><a href="https://codeforces.com/gym/603392/problem/K">Problem - K - Codeforces</a></p>
 <p>To solve this problem, we need to determine if the students can be partitioned into two sets, A and B, such that A forms a complete subgraph (clique) and B forms an independent set (no edges between any two nodes in B). This problem can be efficiently solved by checking if the given graph is a split graph, which can be determined by analyzing the degree sequence of the graph.</p>
         
-        <hr><p>Published on 2025-05-08 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2025-05-08</p>]]></description><category>题解</category></item><item><title>XCTF - 我不是病毒2.0</title><link>https://username.github.io/post/xctf-i-am-not-a-virus/</link><pubDate>Mon, 23 Dec 2024 08:55:27 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/xctf-i-am-not-a-virus/</guid><description>
-<![CDATA[<h1>XCTF - 我不是病毒2.0</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        <hr><p>本文2025-05-08首发于<a href='https://satori5ama.github.io/'>终端出口</a>，最后修改于2025-05-08</p>]]></description><category>题解</category></item><item><title>XCTF - 我不是病毒2.0</title><link>https://satori5ama.github.io/post/xctf-i-am-not-a-virus/</link><pubDate>Mon, 23 Dec 2024 08:55:27 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://satori5ama.github.io/post/xctf-i-am-not-a-virus/</guid><description>
+<![CDATA[<h1>XCTF - 我不是病毒2.0</h1><p>作者：Satori5ama（satori5ama@foxmail.com）</p>
         
           <p>复现完以为自己写了wp，结果好像没有。只能转一篇了。</p>
 <p><a href="https://eutop1a.github.io/2023/04/01/2023XCTF-Final/">2023XCTF-Final - Eutop1a</a></p>
         
-        <hr><p>Published on 2024-12-23 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-12-23</p>]]></description><category>题解</category></item><item><title>CISCN2024初赛re部分Wp</title><link>https://username.github.io/post/ciscn-wp/</link><pubDate>Wed, 18 Dec 2024 08:55:27 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/ciscn-wp/</guid><description>
-<![CDATA[<h1>CISCN2024初赛re部分Wp</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        <hr><p>本文2024-12-23首发于<a href='https://satori5ama.github.io/'>终端出口</a>，最后修改于2024-12-23</p>]]></description><category>题解</category></item><item><title>CISCN2024初赛re部分Wp</title><link>https://satori5ama.github.io/post/ciscn-wp/</link><pubDate>Wed, 18 Dec 2024 08:55:27 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://satori5ama.github.io/post/ciscn-wp/</guid><description>
+<![CDATA[<h1>CISCN2024初赛re部分Wp</h1><p>作者：Satori5ama（satori5ama@foxmail.com）</p>
         
           省流：糖丸了。
         
-        <hr><p>Published on 2024-12-18 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-12-18</p>]]></description><category>题解</category></item><item><title>攻防世界 - Re150</title><link>https://username.github.io/post/adworld-re150/</link><pubDate>Thu, 21 Nov 2024 08:55:27 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/adworld-re150/</guid><description>
-<![CDATA[<h1>攻防世界 - Re150</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        <hr><p>本文2024-12-18首发于<a href='https://satori5ama.github.io/'>终端出口</a>，最后修改于2024-12-18</p>]]></description><category>题解</category></item><item><title>攻防世界 - Re150</title><link>https://satori5ama.github.io/post/adworld-re150/</link><pubDate>Thu, 21 Nov 2024 08:55:27 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://satori5ama.github.io/post/adworld-re150/</guid><description>
+<![CDATA[<h1>攻防世界 - Re150</h1><p>作者：Satori5ama（satori5ama@foxmail.com）</p>
         
           <p>参考文献：<a href="https://lrhtony.cn/2023/12/28/xctf-re150/">攻防世界-Re150 - lrhtony 的小站</a></p>
 <p>查壳略。</p>
 <p>IDA打开，发现没有main函数，只有一个start函数。</p>
 <p>start函数的汇编代码：</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-asm" data-lang="asm"><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">D4</span> <span class="no">start</span>           <span class="no">proc</span> <span class="no">near</span>               <span class="c1">; DATA XREF: LOAD:08048018↑o
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">D4</span>                                         <span class="c1">; start+22↓o
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">D4</span>                 <span class="no">jmp</span>     <span class="no">short</span> <span class="no">loc_80488EB</span>
+</span></span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">D4</span>                                         <span class="c1">; start+22↓o
+</span></span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">D4</span>                 <span class="no">jmp</span>     <span class="no">short</span> <span class="no">loc_80488EB</span>
 </span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">D4</span> <span class="c1">; ---------------------------------------------------------------------------
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">D6</span>                 <span class="no">db</span> <span class="mi">20</span><span class="no">h</span>                  <span class="c1">; address 0x08048320
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">D7</span>                 <span class="no">db</span>  <span class="mi">83</span><span class="no">h</span>
+</span></span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">D6</span>                 <span class="no">db</span> <span class="mi">20</span><span class="no">h</span>                  <span class="c1">; address 0x08048320
+</span></span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">D7</span>                 <span class="no">db</span>  <span class="mi">83</span><span class="no">h</span>
 </span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">D8</span>                 <span class="no">db</span>    <span class="mi">4</span>
 </span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">D9</span>                 <span class="no">db</span>    <span class="mi">8</span>
 </span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">DA</span>                 <span class="no">db</span>  <span class="mi">20</span><span class="no">h</span>
@@ -39,18 +39,18 @@
 </span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">E0</span>                 <span class="no">db</span>    <span class="mi">0</span>
 </span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">E1</span>                 <span class="no">db</span> <span class="mi">0</span>
 </span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">E2</span>                 <span class="no">db</span>  <span class="mi">73</span><span class="no">h</span> <span class="c1">; s
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">E3</span>                 <span class="no">db</span>  <span class="mi">79</span><span class="no">h</span> <span class="c1">; y
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">E4</span>                 <span class="no">db</span> <span class="mi">63</span><span class="no">h</span>
+</span></span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">E3</span>                 <span class="no">db</span>  <span class="mi">79</span><span class="no">h</span> <span class="c1">; y
+</span></span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">E4</span>                 <span class="no">db</span> <span class="mi">63</span><span class="no">h</span>
 </span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">E5</span>                 <span class="no">db</span>  <span class="mi">6</span><span class="no">Ch</span> <span class="c1">; l
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">E6</span>                 <span class="no">db</span>  <span class="mi">6</span><span class="no">Fh</span> <span class="c1">; o
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">E7</span>                 <span class="no">db</span>  <span class="mi">76</span><span class="no">h</span> <span class="c1">; v
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">E8</span>                 <span class="no">db</span> <span class="mi">65</span><span class="no">h</span>
+</span></span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">E6</span>                 <span class="no">db</span>  <span class="mi">6</span><span class="no">Fh</span> <span class="c1">; o
+</span></span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">E7</span>                 <span class="no">db</span>  <span class="mi">76</span><span class="no">h</span> <span class="c1">; v
+</span></span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">E8</span>                 <span class="no">db</span> <span class="mi">65</span><span class="no">h</span>
 </span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">E9</span>                 <span class="no">db</span>  <span class="mi">72</span><span class="no">h</span> <span class="c1">; r
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">EA</span>                 <span class="no">db</span>  <span class="mi">0</span><span class="no">Ah</span>
+</span></span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">EA</span>                 <span class="no">db</span>  <span class="mi">0</span><span class="no">Ah</span>
 </span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">EB</span> <span class="c1">; ---------------------------------------------------------------------------
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">EB</span>
+</span></span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">EB</span>
 </span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">EB</span> <span class="no">loc_80488EB</span><span class="p">:</span>                            <span class="c1">; CODE XREF: start↑j
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">EB</span>                 <span class="no">push</span>    <span class="no">ecx</span>
+</span></span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">EB</span>                 <span class="no">push</span>    <span class="no">ecx</span>
 </span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">EC</span>                 <span class="no">push</span>    <span class="no">ebx</span>
 </span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">ED</span>                 <span class="no">push</span>    <span class="no">edx</span>
 </span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">EE</span>                 <span class="no">push</span>    <span class="no">edi</span>
@@ -58,15 +58,15 @@
 </span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">F0</span>                 <span class="no">call</span>    <span class="no">$</span><span class="err">+</span><span class="mi">5</span>
 </span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">F5</span>
 </span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">F5</span> <span class="no">loc_80488F5</span><span class="p">:</span>                            <span class="c1">; DATA XREF: start+22↓o
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">F5</span>                 <span class="no">pop</span>     <span class="no">ebp</span>             <span class="c1">; ebp = 0x080488F5
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">F6</span>                 <span class="no">sub</span>     <span class="no">ebp</span><span class="p">,</span> <span class="p">(</span><span class="no">offset</span> <span class="no">loc_80488F5</span> <span class="p">-</span> <span class="no">offset</span> <span class="no">start</span><span class="p">)</span> <span class="c1">; ebp = start
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">FC</span>                 <span class="no">mov</span>     <span class="no">eax</span><span class="p">,</span> <span class="mi">4</span>
+</span></span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">F5</span>                 <span class="no">pop</span>     <span class="no">ebp</span>             <span class="c1">; ebp = 0x080488F5
+</span></span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">F6</span>                 <span class="no">sub</span>     <span class="no">ebp</span><span class="p">,</span> <span class="p">(</span><span class="no">offset</span> <span class="no">loc_80488F5</span> <span class="p">-</span> <span class="no">offset</span> <span class="no">start</span><span class="p">)</span> <span class="c1">; ebp = start
+</span></span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">080488</span><span class="nf">FC</span>                 <span class="no">mov</span>     <span class="no">eax</span><span class="p">,</span> <span class="mi">4</span>
 </span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">08048901</span>                 <span class="nf">mov</span>     <span class="no">ebx</span><span class="p">,</span> <span class="mi">1</span>          <span class="c1">; fd
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nl">.eh_frame:</span><span class="err">08048906</span>                 <span class="nf">mov</span>     <span class="no">ecx</span><span class="p">,</span> <span class="mi">14</span>
+</span></span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">08048906</span>                 <span class="nf">mov</span>     <span class="no">ecx</span><span class="p">,</span> <span class="mi">14</span>
 </span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">0804890</span><span class="nf">B</span>                 <span class="no">add</span>     <span class="no">ecx</span><span class="p">,</span> <span class="no">ebp</span>        <span class="c1">; addr
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nl">.eh_frame:</span><span class="err">0804890</span><span class="nf">D</span>                 <span class="no">mov</span>     <span class="no">edx</span><span class="p">,</span> <span class="mi">9</span>          <span class="c1">; len
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nl">.eh_frame:</span><span class="err">08048912</span>                 <span class="nf">int</span>     <span class="mi">80</span><span class="no">h</span>             <span class="c1">; LINUX - sys_write
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nl">.eh_frame:</span><span class="err">08048914</span>                 <span class="nf">mov</span>     <span class="no">ecx</span><span class="p">,</span> <span class="mi">0</span><span class="no">Ah</span>
+</span></span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">0804890</span><span class="nf">D</span>                 <span class="no">mov</span>     <span class="no">edx</span><span class="p">,</span> <span class="mi">9</span>          <span class="c1">; len
+</span></span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">08048912</span>                 <span class="nf">int</span>     <span class="mi">80</span><span class="no">h</span>             <span class="c1">; LINUX - sys_write
+</span></span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">08048914</span>                 <span class="nf">mov</span>     <span class="no">ecx</span><span class="p">,</span> <span class="mi">0</span><span class="no">Ah</span>
 </span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">08048919</span>                 <span class="nf">add</span>     <span class="no">ecx</span><span class="p">,</span> <span class="no">ebp</span>
 </span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">0804891</span><span class="nf">B</span>                 <span class="no">mov</span>     <span class="no">ecx</span><span class="p">,</span> <span class="p">[</span><span class="no">ecx</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">0804891</span><span class="nf">D</span>                 <span class="no">mov</span>     <span class="no">edi</span><span class="p">,</span> <span class="mi">6</span>
@@ -75,7 +75,7 @@
 </span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">08048926</span>                 <span class="nf">mov</span>     <span class="no">esi</span><span class="p">,</span> <span class="mi">0</span>
 </span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">0804892</span><span class="nf">B</span>
 </span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">0804892</span><span class="nf">B</span> <span class="no">loc_804892B</span><span class="p">:</span>                            <span class="c1">; CODE XREF: start+71↓j
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nl">.eh_frame:</span><span class="err">0804892</span><span class="nf">B</span>                 <span class="no">mov</span>     <span class="no">bl</span><span class="p">,</span> <span class="mi">0</span>
+</span></span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">0804892</span><span class="nf">B</span>                 <span class="no">mov</span>     <span class="no">bl</span><span class="p">,</span> <span class="mi">0</span>
 </span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">0804892</span><span class="nf">D</span>                 <span class="no">mov</span>     <span class="no">al</span><span class="p">,</span> <span class="p">[</span><span class="no">edi</span><span class="err">+</span><span class="no">esi</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">08048930</span>                 <span class="nf">xor</span>     <span class="no">al</span><span class="p">,</span> <span class="mi">42</span><span class="no">h</span>
 </span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">08048932</span>                 <span class="nf">shl</span>     <span class="no">al</span><span class="p">,</span> <span class="mi">5</span>
@@ -95,39 +95,39 @@
 </span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">0804894</span><span class="nf">C</span>                 <span class="no">mov</span>     <span class="no">eax</span><span class="p">,</span> <span class="mi">2</span>
 </span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">08048951</span>                 <span class="nf">add</span>     <span class="no">eax</span><span class="p">,</span> <span class="no">ebp</span>
 </span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">08048953</span>                 <span class="nf">mov</span>     <span class="no">eax</span><span class="p">,</span> <span class="p">[</span><span class="no">eax</span><span class="p">]</span>      <span class="c1">; mov eax,[ebp+2]
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nl">.eh_frame:</span><span class="err">08048953</span>                                         <span class="c1">; 此时ebp = start,即地址0x08048320
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nl">.eh_frame:</span><span class="err">08048955</span>                 <span class="nf">push</span>    <span class="no">eax</span>
+</span></span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">08048953</span>                                         <span class="c1">; 此时ebp = start,即地址0x08048320
+</span></span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">08048955</span>                 <span class="nf">push</span>    <span class="no">eax</span>
 </span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">08048956</span>                 <span class="nf">retn</span>
 </span></span><span class="line"><span class="cl"><span class="nl">.eh_frame:</span><span class="err">08048956</span> <span class="nf">start</span>           <span class="no">endp</span> <span class="c1">; sp-analysis failed
 </span></span></span></code></pre></div><p>伪代码：</p>
         
-        <hr><p>Published on 2024-11-21 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-11-21</p>]]></description><category>题解</category></item><item><title>SUCTF2019 - hardCpp</title><link>https://username.github.io/post/suctf2019-hardcpp/</link><pubDate>Mon, 18 Nov 2024 08:55:27 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/suctf2019-hardcpp/</guid><description>
-<![CDATA[<h1>SUCTF2019 - hardCpp</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        <hr><p>本文2024-11-21首发于<a href='https://satori5ama.github.io/'>终端出口</a>，最后修改于2024-11-21</p>]]></description><category>题解</category></item><item><title>SUCTF2019 - hardCpp</title><link>https://satori5ama.github.io/post/suctf2019-hardcpp/</link><pubDate>Mon, 18 Nov 2024 08:55:27 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://satori5ama.github.io/post/suctf2019-hardcpp/</guid><description>
+<![CDATA[<h1>SUCTF2019 - hardCpp</h1><p>作者：Satori5ama（satori5ama@foxmail.com）</p>
         
           <p>参考文献：<a href="https://pinguw.github.io/2024/03/26/Reverse/LLVM/">去OLLVM平坦化([SUCTF2019]hardCPP) - Pinguw&rsquo;s Blog</a></p>
 <p>查壳，ELF64，无壳</p>
-<p><img src="https://jsd.hidict.cn/gh/Satori5ama/Figurebed@main/img/reverse/1731943536190.png" alt="1731943536190"></p>
+<p><img src="https://cdn.jsdmirror.com/gh/Satori5ama/Figurebed@main/img/reverse/1731943536190.png" alt="1731943536190"></p>
 <p>IDA中发现有多层while嵌套，内部有一个switch控制分发，观察程序流程图发现明显的平坦化痕迹。</p>
-<p><img src="https://jsd.hidict.cn/gh/Satori5ama/Figurebed@main/img/reverse/1731943702464.png" alt="1731943702464"></p>
+<p><img src="https://cdn.jsdmirror.com/gh/Satori5ama/Figurebed@main/img/reverse/1731943702464.png" alt="1731943702464"></p>
         
-        <hr><p>Published on 2024-11-18 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-11-18</p>]]></description><category>题解</category></item><item><title>攻防世界 - maze</title><link>https://username.github.io/post/adworld-maze/</link><pubDate>Tue, 12 Nov 2024 08:55:27 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/adworld-maze/</guid><description>
-<![CDATA[<h1>攻防世界 - maze</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        <hr><p>本文2024-11-18首发于<a href='https://satori5ama.github.io/'>终端出口</a>，最后修改于2024-11-18</p>]]></description><category>题解</category></item><item><title>攻防世界 - maze</title><link>https://satori5ama.github.io/post/adworld-maze/</link><pubDate>Tue, 12 Nov 2024 08:55:27 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://satori5ama.github.io/post/adworld-maze/</guid><description>
+<![CDATA[<h1>攻防世界 - maze</h1><p>作者：Satori5ama（satori5ama@foxmail.com）</p>
         
           <p>查壳，64位elf，无壳。</p>
-<p><img src="https://jsd.hidict.cn/gh/Satori5ama/Figurebed@main/img/reverse/clip_image002.png" alt="img"></p>
+<p><img src="https://cdn.jsdmirror.com/gh/Satori5ama/Figurebed@main/img/reverse/clip_image002.png" alt="img"></p>
 <p>进入main函数。</p>
-<p><img src="https://jsd.hidict.cn/gh/Satori5ama/Figurebed@main/img/reverse/clip_image004.png" alt="img"></p>
+<p><img src="https://cdn.jsdmirror.com/gh/Satori5ama/Figurebed@main/img/reverse/clip_image004.png" alt="img"></p>
 <p>伪代码：</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="kr">__int64</span> <span class="kr">__fastcall</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">a1</span><span class="p">,</span> <span class="kt">char</span> <span class="o">**</span><span class="n">a2</span><span class="p">,</span> <span class="kt">char</span> <span class="o">**</span><span class="n">a3</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="p">{</span>
 </span></span><span class="line"><span class="cl">  <span class="kr">__int64</span> <span class="n">v3</span><span class="p">;</span> <span class="c1">// rbx
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v4</span><span class="p">;</span> <span class="c1">// eax
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">bool</span> <span class="n">v5</span><span class="p">;</span> <span class="c1">// bp
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">bool</span> <span class="n">v6</span><span class="p">;</span> <span class="c1">// al
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="k">const</span> <span class="kt">char</span> <span class="o">*</span><span class="n">v7</span><span class="p">;</span> <span class="c1">// rdi
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v9</span><span class="p">;</span> <span class="c1">// [rsp+0h] [rbp-28h] BYREF
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kt">int</span> <span class="n">v10</span><span class="p">[</span><span class="mi">9</span><span class="p">];</span> <span class="c1">// [rsp+4h] [rbp-24h] BYREF
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span></span><span class="line"><span class="cl">  <span class="kt">int</span> <span class="n">v4</span><span class="p">;</span> <span class="c1">// eax
+</span></span></span><span class="line"><span class="cl">  <span class="kt">bool</span> <span class="n">v5</span><span class="p">;</span> <span class="c1">// bp
+</span></span></span><span class="line"><span class="cl">  <span class="kt">bool</span> <span class="n">v6</span><span class="p">;</span> <span class="c1">// al
+</span></span></span><span class="line"><span class="cl">  <span class="k">const</span> <span class="kt">char</span> <span class="o">*</span><span class="n">v7</span><span class="p">;</span> <span class="c1">// rdi
+</span></span></span><span class="line"><span class="cl">  <span class="kt">int</span> <span class="n">v9</span><span class="p">;</span> <span class="c1">// [rsp+0h] [rbp-28h] BYREF
+</span></span></span><span class="line"><span class="cl">  <span class="kt">int</span> <span class="n">v10</span><span class="p">[</span><span class="mi">9</span><span class="p">];</span> <span class="c1">// [rsp+4h] [rbp-24h] BYREF
+</span></span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">  <span class="n">v10</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">  <span class="n">v9</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">  <span class="nf">puts</span><span class="p">(</span><span class="s">&#34;Input flag:&#34;</span><span class="p">);</span>
@@ -193,8 +193,8 @@
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div><p>观察第一段，可以发现flag形式为nctf{开头，长度为24，结尾为}的字符串。</p>
         
-        <hr><p>Published on 2024-11-12 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-11-12</p>]]></description><category>题解</category></item><item><title>2024 ICPC Invitational Wuhan Site (partial)</title><link>https://username.github.io/post/2024-icpc-invitational-wuhan-site/</link><pubDate>Mon, 01 Apr 2024 08:52:25 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/2024-icpc-invitational-wuhan-site/</guid><description>
-<![CDATA[<h1>2024 ICPC Invitational Wuhan Site (partial)</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        <hr><p>本文2024-11-12首发于<a href='https://satori5ama.github.io/'>终端出口</a>，最后修改于2024-11-12</p>]]></description><category>题解</category></item><item><title>2024 ICPC Invitational Wuhan Site (partial)</title><link>https://satori5ama.github.io/post/2024-icpc-invitational-wuhan-site/</link><pubDate>Mon, 01 Apr 2024 08:52:25 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://satori5ama.github.io/post/2024-icpc-invitational-wuhan-site/</guid><description>
+<![CDATA[<h1>2024 ICPC Invitational Wuhan Site (partial)</h1><p>作者：Satori5ama（satori5ama@foxmail.com）</p>
         
           <p>我真傻，真的</p>
 <p>好多小马题，<del>小马害人</del></p>
@@ -205,19 +205,19 @@ I
 </h1><p>水签，比较相邻位逆序个数就行了</p>
 <p>就这改题时看了一眼就会的破题我比赛还看了5分钟，紫砂了。</p>
         
-        <hr><p>Published on 2024-04-01 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-07-21</p>]]></description><category>题解</category></item><item><title>两凸包间距离——GJK算法（POJ 3608）</title><link>https://username.github.io/post/gjk-algorithm/</link><pubDate>Sun, 21 Jul 2024 08:52:25 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/gjk-algorithm/</guid><description>
-<![CDATA[<h1>两凸包间距离——GJK算法（POJ 3608）</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        <hr><p>本文2024-04-01首发于<a href='https://satori5ama.github.io/'>终端出口</a>，最后修改于2024-07-21</p>]]></description><category>题解</category></item><item><title>两凸包间距离——GJK算法（POJ 3608）</title><link>https://satori5ama.github.io/post/gjk-algorithm/</link><pubDate>Sun, 21 Jul 2024 08:52:25 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://satori5ama.github.io/post/gjk-algorithm/</guid><description>
+<![CDATA[<h1>两凸包间距离——GJK算法（POJ 3608）</h1><p>作者：Satori5ama（satori5ama@foxmail.com）</p>
         
           <p>起因：数模期末大作业，求空域在平面投影上相互之间最短距离是否小于安全距离。空域投影的形状有圆形，凸多边形，跑道形。</p>
 <p>使用GJK算法的代码：</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="cp">#include&lt;bits/stdc++.h&gt;  
-</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>  
+</span></span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>  
 </span></span><span class="line"><span class="cl"><span class="cp">#define double long double  
 </span></span></span><span class="line"><span class="cl"><span class="cp">#define x first  
 </span></span></span><span class="line"><span class="cl"><span class="cp">#define y second  
 </span></span></span><span class="line"><span class="cl"><span class="cp">#define MIN(a,b,c,d) (min(min(min(a,b),c),d))  
 </span></span></span><span class="line"><span class="cl"><span class="cp">#define MAX(a,b,c,d) (max(max(max(a,b),c),d))  
-</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="k">typedef</span> <span class="n">pair</span><span class="o">&lt;</span><span class="kt">double</span><span class="p">,</span> <span class="kt">double</span><span class="o">&gt;</span> <span class="n">P</span><span class="p">;</span>  
+</span></span></span><span class="line"><span class="cl"><span class="k">typedef</span> <span class="n">pair</span><span class="o">&lt;</span><span class="kt">double</span><span class="p">,</span> <span class="kt">double</span><span class="o">&gt;</span> <span class="n">P</span><span class="p">;</span>  
 </span></span><span class="line"><span class="cl"><span class="k">typedef</span> <span class="kt">unsigned</span> <span class="n">uint</span><span class="p">;</span>  
 </span></span><span class="line"><span class="cl"><span class="k">const</span> <span class="n">P</span> <span class="n">origin</span> <span class="o">=</span> <span class="n">P</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>  
 </span></span><span class="line"><span class="cl"><span class="k">const</span> <span class="kt">double</span> <span class="n">eps</span> <span class="o">=</span> <span class="mf">1e-6</span><span class="p">;</span>    
@@ -377,8 +377,8 @@ I
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div><p>发现POJ 3608其实是这个问题的一个子集，稍微改改输入部分可以通过板子题POJ 3608。</p>
         
-        <hr><p>Published on 2024-07-21 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-07-21</p>]]></description><category>题解</category></item><item><title>Codeforces Round 921 (Div. 2)</title><link>https://username.github.io/post/codeforces-round-921-div.-2/</link><pubDate>Mon, 20 May 2024 16:55:27 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/codeforces-round-921-div.-2/</guid><description>
-<![CDATA[<h1>Codeforces Round 921 (Div. 2)</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        <hr><p>本文2024-07-21首发于<a href='https://satori5ama.github.io/'>终端出口</a>，最后修改于2024-07-21</p>]]></description><category>题解</category></item><item><title>Codeforces Round 921 (Div. 2)</title><link>https://satori5ama.github.io/post/codeforces-round-921-div-2/</link><pubDate>Mon, 20 May 2024 16:55:27 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://satori5ama.github.io/post/codeforces-round-921-div-2/</guid><description>
+<![CDATA[<h1>Codeforces Round 921 (Div. 2)</h1><p>作者：Satori5ama（satori5ama@foxmail.com）</p>
         
           <p>好久以前的div2拖到现在才改真是唐完了。</p>
 <p><a href="https://codeforces.com/contest/1925">Dashboard - Codeforces Round 921 (Div. 2) - Codeforces</a></p>
@@ -392,8 +392,8 @@ D
 </h1><p>概率论没学好导致的。</p>
 <p>期望的贡献可以分为两部分，第一部分是原始$f_i$数组产生的贡献，第二部分是增加的数产生的贡献，注意到第二部分和原数组没有任何关系，只与增加的方案相关。</p>
         
-        <hr><p>Published on 2024-05-20 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-05-24</p>]]></description><category>题解</category></item><item><title>The 2024 Hunan Multi-School Programming Training Contest Round 4 (partial)</title><link>https://username.github.io/post/2024-hunan-multi-school-4/</link><pubDate>Mon, 01 Apr 2024 08:52:25 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://username.github.io/post/2024-hunan-multi-school-4/</guid><description>
-<![CDATA[<h1>The 2024 Hunan Multi-School Programming Training Contest Round 4 (partial)</h1><p>Author: Satori5ama(satori5ama@foxmail.com)</p>
+        <hr><p>本文2024-05-20首发于<a href='https://satori5ama.github.io/'>终端出口</a>，最后修改于2024-05-24</p>]]></description><category>题解</category></item><item><title>The 2024 Hunan Multi-School Programming Training Contest Round 4 (partial)</title><link>https://satori5ama.github.io/post/2024-hunan-multi-school-4/</link><pubDate>Mon, 01 Apr 2024 08:52:25 +0800</pubDate><author>satori5ama@foxmail.com (Satori5ama)</author><guid>https://satori5ama.github.io/post/2024-hunan-multi-school-4/</guid><description>
+<![CDATA[<h1>The 2024 Hunan Multi-School Programming Training Contest Round 4 (partial)</h1><p>作者：Satori5ama（satori5ama@foxmail.com）</p>
         
           <p>公式好像写多了，Latex得加载好一会儿。</p>
 <p><a href="https://codeforces.com/gym/514727">Hunan Collegiate Championship Ⅳ 2024 (feat. Yokohama Regional 2021) - Codeforces</a></p>
@@ -406,4 +406,4 @@ Tag
 A
 </h3><p>相邻两个球相交首尾相接求体积并，给出公式，签到题</p>
         
-        <hr><p>Published on 2024-04-01 at <a href='https://username.github.io/'>终端出口</a>, last modified on 2024-04-28</p>]]></description><category>题解</category></item></channel></rss>
+        <hr><p>本文2024-04-01首发于<a href='https://satori5ama.github.io/'>终端出口</a>，最后修改于2024-04-28</p>]]></description><category>题解</category></item></channel></rss>
